@@ -1,0 +1,2440 @@
+{
+  "RECORDS": [
+    {
+      "pickingTime": "1/1/2023 08:34:09",
+      "dateinfo": "2023-01-01",
+      "hourinfo": "8",
+      "batchNumCntHour": 57,
+      "orderNumCntHour": 2942
+    },
+    {
+      "pickingTime": "1/1/2023 09:00:49",
+      "dateinfo": "2023-01-01",
+      "hourinfo": "9",
+      "batchNumCntHour": 111,
+      "orderNumCntHour": 2981
+    },
+    {
+      "pickingTime": "1/1/2023 10:03:00",
+      "dateinfo": "2023-01-01",
+      "hourinfo": "10",
+      "batchNumCntHour": 140,
+      "orderNumCntHour": 2485
+    },
+    {
+      "pickingTime": "1/1/2023 11:12:18",
+      "dateinfo": "2023-01-01",
+      "hourinfo": "11",
+      "batchNumCntHour": 12,
+      "orderNumCntHour": 242
+    },
+    {
+      "pickingTime": "1/1/2023 12:22:24",
+      "dateinfo": "2023-01-01",
+      "hourinfo": "12",
+      "batchNumCntHour": 34,
+      "orderNumCntHour": 294
+    },
+    {
+      "pickingTime": "1/1/2023 13:03:05",
+      "dateinfo": "2023-01-01",
+      "hourinfo": "13",
+      "batchNumCntHour": 118,
+      "orderNumCntHour": 2109
+    },
+    {
+      "pickingTime": "1/1/2023 14:18:54",
+      "dateinfo": "2023-01-01",
+      "hourinfo": "14",
+      "batchNumCntHour": 69,
+      "orderNumCntHour": 949
+    },
+    {
+      "pickingTime": "1/1/2023 15:18:51",
+      "dateinfo": "2023-01-01",
+      "hourinfo": "15",
+      "batchNumCntHour": 51,
+      "orderNumCntHour": 664
+    },
+    {
+      "pickingTime": "1/1/2023 16:02:13",
+      "dateinfo": "2023-01-01",
+      "hourinfo": "16",
+      "batchNumCntHour": 82,
+      "orderNumCntHour": 1065
+    },
+    {
+      "pickingTime": "1/1/2023 17:10:36",
+      "dateinfo": "2023-01-01",
+      "hourinfo": "17",
+      "batchNumCntHour": 56,
+      "orderNumCntHour": 665
+    },
+    {
+      "pickingTime": "1/1/2023 18:06:05",
+      "dateinfo": "2023-01-01",
+      "hourinfo": "18",
+      "batchNumCntHour": 7,
+      "orderNumCntHour": 69
+    },
+    {
+      "pickingTime": "1/1/2023 19:09:57",
+      "dateinfo": "2023-01-01",
+      "hourinfo": "19",
+      "batchNumCntHour": 9,
+      "orderNumCntHour": 24
+    },
+    {
+      "pickingTime": "2/1/2023 08:45:47",
+      "dateinfo": "2023-01-02",
+      "hourinfo": "8",
+      "batchNumCntHour": 72,
+      "orderNumCntHour": 2744
+    },
+    {
+      "pickingTime": "2/1/2023 09:00:00",
+      "dateinfo": "2023-01-02",
+      "hourinfo": "9",
+      "batchNumCntHour": 44,
+      "orderNumCntHour": 4022
+    },
+    {
+      "pickingTime": "2/1/2023 10:48:55",
+      "dateinfo": "2023-01-02",
+      "hourinfo": "10",
+      "batchNumCntHour": 68,
+      "orderNumCntHour": 3402
+    },
+    {
+      "pickingTime": "2/1/2023 11:01:41",
+      "dateinfo": "2023-01-02",
+      "hourinfo": "11",
+      "batchNumCntHour": 24,
+      "orderNumCntHour": 303
+    },
+    {
+      "pickingTime": "2/1/2023 12:12:30",
+      "dateinfo": "2023-01-02",
+      "hourinfo": "12",
+      "batchNumCntHour": 70,
+      "orderNumCntHour": 1210
+    },
+    {
+      "pickingTime": "2/1/2023 13:19:03",
+      "dateinfo": "2023-01-02",
+      "hourinfo": "13",
+      "batchNumCntHour": 117,
+      "orderNumCntHour": 2187
+    },
+    {
+      "pickingTime": "2/1/2023 14:01:05",
+      "dateinfo": "2023-01-02",
+      "hourinfo": "14",
+      "batchNumCntHour": 38,
+      "orderNumCntHour": 407
+    },
+    {
+      "pickingTime": "2/1/2023 15:03:23",
+      "dateinfo": "2023-01-02",
+      "hourinfo": "15",
+      "batchNumCntHour": 78,
+      "orderNumCntHour": 1367
+    },
+    {
+      "pickingTime": "2/1/2023 16:03:09",
+      "dateinfo": "2023-01-02",
+      "hourinfo": "16",
+      "batchNumCntHour": 85,
+      "orderNumCntHour": 1098
+    },
+    {
+      "pickingTime": "2/1/2023 17:00:57",
+      "dateinfo": "2023-01-02",
+      "hourinfo": "17",
+      "batchNumCntHour": 89,
+      "orderNumCntHour": 1043
+    },
+    {
+      "pickingTime": "2/1/2023 18:00:42",
+      "dateinfo": "2023-01-02",
+      "hourinfo": "18",
+      "batchNumCntHour": 16,
+      "orderNumCntHour": 89
+    },
+    {
+      "pickingTime": "2/1/2023 19:37:26",
+      "dateinfo": "2023-01-02",
+      "hourinfo": "19",
+      "batchNumCntHour": 1,
+      "orderNumCntHour": 20
+    },
+    {
+      "pickingTime": "3/1/2023 08:39:01",
+      "dateinfo": "2023-01-03",
+      "hourinfo": "8",
+      "batchNumCntHour": 75,
+      "orderNumCntHour": 2362
+    },
+    {
+      "pickingTime": "3/1/2023 09:05:31",
+      "dateinfo": "2023-01-03",
+      "hourinfo": "9",
+      "batchNumCntHour": 52,
+      "orderNumCntHour": 1687
+    },
+    {
+      "pickingTime": "3/1/2023 10:49:19",
+      "dateinfo": "2023-01-03",
+      "hourinfo": "10",
+      "batchNumCntHour": 199,
+      "orderNumCntHour": 3919
+    },
+    {
+      "pickingTime": "3/1/2023 11:00:01",
+      "dateinfo": "2023-01-03",
+      "hourinfo": "11",
+      "batchNumCntHour": 4,
+      "orderNumCntHour": 41
+    },
+    {
+      "pickingTime": "3/1/2023 12:08:31",
+      "dateinfo": "2023-01-03",
+      "hourinfo": "12",
+      "batchNumCntHour": 22,
+      "orderNumCntHour": 131
+    },
+    {
+      "pickingTime": "3/1/2023 13:10:39",
+      "dateinfo": "2023-01-03",
+      "hourinfo": "13",
+      "batchNumCntHour": 68,
+      "orderNumCntHour": 708
+    },
+    {
+      "pickingTime": "3/1/2023 14:00:40",
+      "dateinfo": "2023-01-03",
+      "hourinfo": "14",
+      "batchNumCntHour": 77,
+      "orderNumCntHour": 1020
+    },
+    {
+      "pickingTime": "3/1/2023 15:00:55",
+      "dateinfo": "2023-01-03",
+      "hourinfo": "15",
+      "batchNumCntHour": 89,
+      "orderNumCntHour": 1149
+    },
+    {
+      "pickingTime": "3/1/2023 16:08:08",
+      "dateinfo": "2023-01-03",
+      "hourinfo": "16",
+      "batchNumCntHour": 49,
+      "orderNumCntHour": 538
+    },
+    {
+      "pickingTime": "3/1/2023 17:01:39",
+      "dateinfo": "2023-01-03",
+      "hourinfo": "17",
+      "batchNumCntHour": 79,
+      "orderNumCntHour": 868
+    },
+    {
+      "pickingTime": "3/1/2023 18:01:49",
+      "dateinfo": "2023-01-03",
+      "hourinfo": "18",
+      "batchNumCntHour": 29,
+      "orderNumCntHour": 193
+    },
+    {
+      "pickingTime": "3/1/2023 19:46:25",
+      "dateinfo": "2023-01-03",
+      "hourinfo": "19",
+      "batchNumCntHour": 1,
+      "orderNumCntHour": 1
+    },
+    {
+      "pickingTime": "4/1/2023 08:43:00",
+      "dateinfo": "2023-01-04",
+      "hourinfo": "8",
+      "batchNumCntHour": 52,
+      "orderNumCntHour": 2544
+    },
+    {
+      "pickingTime": "4/1/2023 09:02:00",
+      "dateinfo": "2023-01-04",
+      "hourinfo": "9",
+      "batchNumCntHour": 78,
+      "orderNumCntHour": 3480
+    },
+    {
+      "pickingTime": "4/1/2023 10:01:24",
+      "dateinfo": "2023-01-04",
+      "hourinfo": "10",
+      "batchNumCntHour": 59,
+      "orderNumCntHour": 1130
+    },
+    {
+      "pickingTime": "4/1/2023 11:05:45",
+      "dateinfo": "2023-01-04",
+      "hourinfo": "11",
+      "batchNumCntHour": 116,
+      "orderNumCntHour": 2813
+    },
+    {
+      "pickingTime": "4/1/2023 12:24:18",
+      "dateinfo": "2023-01-04",
+      "hourinfo": "12",
+      "batchNumCntHour": 103,
+      "orderNumCntHour": 1415
+    },
+    {
+      "pickingTime": "4/1/2023 13:01:48",
+      "dateinfo": "2023-01-04",
+      "hourinfo": "13",
+      "batchNumCntHour": 29,
+      "orderNumCntHour": 679
+    },
+    {
+      "pickingTime": "4/1/2023 14:03:43",
+      "dateinfo": "2023-01-04",
+      "hourinfo": "14",
+      "batchNumCntHour": 89,
+      "orderNumCntHour": 1093
+    },
+    {
+      "pickingTime": "4/1/2023 15:05:43",
+      "dateinfo": "2023-01-04",
+      "hourinfo": "15",
+      "batchNumCntHour": 54,
+      "orderNumCntHour": 686
+    },
+    {
+      "pickingTime": "4/1/2023 16:06:54",
+      "dateinfo": "2023-01-04",
+      "hourinfo": "16",
+      "batchNumCntHour": 73,
+      "orderNumCntHour": 1110
+    },
+    {
+      "pickingTime": "4/1/2023 17:00:02",
+      "dateinfo": "2023-01-04",
+      "hourinfo": "17",
+      "batchNumCntHour": 63,
+      "orderNumCntHour": 642
+    },
+    {
+      "pickingTime": "4/1/2023 18:01:48",
+      "dateinfo": "2023-01-04",
+      "hourinfo": "18",
+      "batchNumCntHour": 22,
+      "orderNumCntHour": 104
+    },
+    {
+      "pickingTime": "5/1/2023 08:11:28",
+      "dateinfo": "2023-01-05",
+      "hourinfo": "8",
+      "batchNumCntHour": 99,
+      "orderNumCntHour": 2588
+    },
+    {
+      "pickingTime": "5/1/2023 09:19:00",
+      "dateinfo": "2023-01-05",
+      "hourinfo": "9",
+      "batchNumCntHour": 84,
+      "orderNumCntHour": 1328
+    },
+    {
+      "pickingTime": "5/1/2023 10:13:07",
+      "dateinfo": "2023-01-05",
+      "hourinfo": "10",
+      "batchNumCntHour": 89,
+      "orderNumCntHour": 1758
+    },
+    {
+      "pickingTime": "5/1/2023 11:07:57",
+      "dateinfo": "2023-01-05",
+      "hourinfo": "11",
+      "batchNumCntHour": 48,
+      "orderNumCntHour": 685
+    },
+    {
+      "pickingTime": "5/1/2023 12:35:48",
+      "dateinfo": "2023-01-05",
+      "hourinfo": "12",
+      "batchNumCntHour": 34,
+      "orderNumCntHour": 295
+    },
+    {
+      "pickingTime": "5/1/2023 13:02:34",
+      "dateinfo": "2023-01-05",
+      "hourinfo": "13",
+      "batchNumCntHour": 87,
+      "orderNumCntHour": 1115
+    },
+    {
+      "pickingTime": "5/1/2023 14:01:42",
+      "dateinfo": "2023-01-05",
+      "hourinfo": "14",
+      "batchNumCntHour": 44,
+      "orderNumCntHour": 688
+    },
+    {
+      "pickingTime": "5/1/2023 15:09:23",
+      "dateinfo": "2023-01-05",
+      "hourinfo": "15",
+      "batchNumCntHour": 32,
+      "orderNumCntHour": 547
+    },
+    {
+      "pickingTime": "5/1/2023 16:02:19",
+      "dateinfo": "2023-01-05",
+      "hourinfo": "16",
+      "batchNumCntHour": 59,
+      "orderNumCntHour": 1155
+    },
+    {
+      "pickingTime": "5/1/2023 17:00:49",
+      "dateinfo": "2023-01-05",
+      "hourinfo": "17",
+      "batchNumCntHour": 64,
+      "orderNumCntHour": 584
+    },
+    {
+      "pickingTime": "5/1/2023 18:00:20",
+      "dateinfo": "2023-01-05",
+      "hourinfo": "18",
+      "batchNumCntHour": 15,
+      "orderNumCntHour": 110
+    },
+    {
+      "pickingTime": "5/1/2023 20:08:08",
+      "dateinfo": "2023-01-05",
+      "hourinfo": "20",
+      "batchNumCntHour": 1,
+      "orderNumCntHour": 2
+    },
+    {
+      "pickingTime": "6/1/2023 08:12:07",
+      "dateinfo": "2023-01-06",
+      "hourinfo": "8",
+      "batchNumCntHour": 100,
+      "orderNumCntHour": 4153
+    },
+    {
+      "pickingTime": "6/1/2023 09:46:28",
+      "dateinfo": "2023-01-06",
+      "hourinfo": "9",
+      "batchNumCntHour": 93,
+      "orderNumCntHour": 4193
+    },
+    {
+      "pickingTime": "6/1/2023 10:03:01",
+      "dateinfo": "2023-01-06",
+      "hourinfo": "10",
+      "batchNumCntHour": 111,
+      "orderNumCntHour": 1976
+    },
+    {
+      "pickingTime": "6/1/2023 11:23:21",
+      "dateinfo": "2023-01-06",
+      "hourinfo": "11",
+      "batchNumCntHour": 3,
+      "orderNumCntHour": 32
+    },
+    {
+      "pickingTime": "6/1/2023 12:21:59",
+      "dateinfo": "2023-01-06",
+      "hourinfo": "12",
+      "batchNumCntHour": 67,
+      "orderNumCntHour": 1932
+    },
+    {
+      "pickingTime": "6/1/2023 13:09:19",
+      "dateinfo": "2023-01-06",
+      "hourinfo": "13",
+      "batchNumCntHour": 74,
+      "orderNumCntHour": 2562
+    },
+    {
+      "pickingTime": "6/1/2023 14:08:58",
+      "dateinfo": "2023-01-06",
+      "hourinfo": "14",
+      "batchNumCntHour": 68,
+      "orderNumCntHour": 1483
+    },
+    {
+      "pickingTime": "6/1/2023 15:25:36",
+      "dateinfo": "2023-01-06",
+      "hourinfo": "15",
+      "batchNumCntHour": 19,
+      "orderNumCntHour": 322
+    },
+    {
+      "pickingTime": "6/1/2023 16:17:15",
+      "dateinfo": "2023-01-06",
+      "hourinfo": "16",
+      "batchNumCntHour": 92,
+      "orderNumCntHour": 1364
+    },
+    {
+      "pickingTime": "6/1/2023 17:03:28",
+      "dateinfo": "2023-01-06",
+      "hourinfo": "17",
+      "batchNumCntHour": 58,
+      "orderNumCntHour": 2002
+    },
+    {
+      "pickingTime": "6/1/2023 18:01:01",
+      "dateinfo": "2023-01-06",
+      "hourinfo": "18",
+      "batchNumCntHour": 34,
+      "orderNumCntHour": 321
+    },
+    {
+      "pickingTime": "6/1/2023 19:03:38",
+      "dateinfo": "2023-01-06",
+      "hourinfo": "19",
+      "batchNumCntHour": 25,
+      "orderNumCntHour": 195
+    },
+    {
+      "pickingTime": "6/1/2023 20:03:04",
+      "dateinfo": "2023-01-06",
+      "hourinfo": "20",
+      "batchNumCntHour": 7,
+      "orderNumCntHour": 72
+    },
+    {
+      "pickingTime": "7/1/2023 08:11:54",
+      "dateinfo": "2023-01-07",
+      "hourinfo": "8",
+      "batchNumCntHour": 110,
+      "orderNumCntHour": 3599
+    },
+    {
+      "pickingTime": "7/1/2023 09:05:22",
+      "dateinfo": "2023-01-07",
+      "hourinfo": "9",
+      "batchNumCntHour": 19,
+      "orderNumCntHour": 3151
+    },
+    {
+      "pickingTime": "7/1/2023 10:09:31",
+      "dateinfo": "2023-01-07",
+      "hourinfo": "10",
+      "batchNumCntHour": 118,
+      "orderNumCntHour": 3009
+    },
+    {
+      "pickingTime": "7/1/2023 11:01:05",
+      "dateinfo": "2023-01-07",
+      "hourinfo": "11",
+      "batchNumCntHour": 85,
+      "orderNumCntHour": 1204
+    },
+    {
+      "pickingTime": "7/1/2023 12:35:26",
+      "dateinfo": "2023-01-07",
+      "hourinfo": "12",
+      "batchNumCntHour": 46,
+      "orderNumCntHour": 820
+    },
+    {
+      "pickingTime": "7/1/2023 13:11:04",
+      "dateinfo": "2023-01-07",
+      "hourinfo": "13",
+      "batchNumCntHour": 97,
+      "orderNumCntHour": 1963
+    },
+    {
+      "pickingTime": "7/1/2023 14:36:46",
+      "dateinfo": "2023-01-07",
+      "hourinfo": "14",
+      "batchNumCntHour": 70,
+      "orderNumCntHour": 1087
+    },
+    {
+      "pickingTime": "7/1/2023 15:21:05",
+      "dateinfo": "2023-01-07",
+      "hourinfo": "15",
+      "batchNumCntHour": 38,
+      "orderNumCntHour": 691
+    },
+    {
+      "pickingTime": "7/1/2023 16:23:04",
+      "dateinfo": "2023-01-07",
+      "hourinfo": "16",
+      "batchNumCntHour": 72,
+      "orderNumCntHour": 958
+    },
+    {
+      "pickingTime": "7/1/2023 17:00:42",
+      "dateinfo": "2023-01-07",
+      "hourinfo": "17",
+      "batchNumCntHour": 61,
+      "orderNumCntHour": 655
+    },
+    {
+      "pickingTime": "7/1/2023 18:03:09",
+      "dateinfo": "2023-01-07",
+      "hourinfo": "18",
+      "batchNumCntHour": 10,
+      "orderNumCntHour": 77
+    },
+    {
+      "pickingTime": "7/1/2023 20:47:37",
+      "dateinfo": "2023-01-07",
+      "hourinfo": "20",
+      "batchNumCntHour": 1,
+      "orderNumCntHour": 3
+    },
+    {
+      "pickingTime": "8/1/2023 01:41:52",
+      "dateinfo": "2023-01-08",
+      "hourinfo": "1",
+      "batchNumCntHour": 1,
+      "orderNumCntHour": 1
+    },
+    {
+      "pickingTime": "8/1/2023 08:11:41",
+      "dateinfo": "2023-01-08",
+      "hourinfo": "8",
+      "batchNumCntHour": 90,
+      "orderNumCntHour": 2799
+    },
+    {
+      "pickingTime": "8/1/2023 09:05:52",
+      "dateinfo": "2023-01-08",
+      "hourinfo": "9",
+      "batchNumCntHour": 28,
+      "orderNumCntHour": 1674
+    },
+    {
+      "pickingTime": "8/1/2023 10:14:55",
+      "dateinfo": "2023-01-08",
+      "hourinfo": "10",
+      "batchNumCntHour": 170,
+      "orderNumCntHour": 2634
+    },
+    {
+      "pickingTime": "8/1/2023 11:06:05",
+      "dateinfo": "2023-01-08",
+      "hourinfo": "11",
+      "batchNumCntHour": 9,
+      "orderNumCntHour": 585
+    },
+    {
+      "pickingTime": "8/1/2023 12:24:31",
+      "dateinfo": "2023-01-08",
+      "hourinfo": "12",
+      "batchNumCntHour": 47,
+      "orderNumCntHour": 802
+    },
+    {
+      "pickingTime": "8/1/2023 13:02:39",
+      "dateinfo": "2023-01-08",
+      "hourinfo": "13",
+      "batchNumCntHour": 73,
+      "orderNumCntHour": 1300
+    },
+    {
+      "pickingTime": "8/1/2023 14:08:20",
+      "dateinfo": "2023-01-08",
+      "hourinfo": "14",
+      "batchNumCntHour": 56,
+      "orderNumCntHour": 791
+    },
+    {
+      "pickingTime": "8/1/2023 15:05:45",
+      "dateinfo": "2023-01-08",
+      "hourinfo": "15",
+      "batchNumCntHour": 65,
+      "orderNumCntHour": 837
+    },
+    {
+      "pickingTime": "8/1/2023 16:35:29",
+      "dateinfo": "2023-01-08",
+      "hourinfo": "16",
+      "batchNumCntHour": 19,
+      "orderNumCntHour": 271
+    },
+    {
+      "pickingTime": "8/1/2023 17:04:46",
+      "dateinfo": "2023-01-08",
+      "hourinfo": "17",
+      "batchNumCntHour": 66,
+      "orderNumCntHour": 787
+    },
+    {
+      "pickingTime": "8/1/2023 18:02:40",
+      "dateinfo": "2023-01-08",
+      "hourinfo": "18",
+      "batchNumCntHour": 12,
+      "orderNumCntHour": 160
+    },
+    {
+      "pickingTime": "8/1/2023 19:01:34",
+      "dateinfo": "2023-01-08",
+      "hourinfo": "19",
+      "batchNumCntHour": 3,
+      "orderNumCntHour": 40
+    },
+    {
+      "pickingTime": "8/1/2023 20:07:54",
+      "dateinfo": "2023-01-08",
+      "hourinfo": "20",
+      "batchNumCntHour": 22,
+      "orderNumCntHour": 120
+    },
+    {
+      "pickingTime": "9/1/2023 08:09:41",
+      "dateinfo": "2023-01-09",
+      "hourinfo": "8",
+      "batchNumCntHour": 88,
+      "orderNumCntHour": 3581
+    },
+    {
+      "pickingTime": "9/1/2023 09:03:22",
+      "dateinfo": "2023-01-09",
+      "hourinfo": "9",
+      "batchNumCntHour": 66,
+      "orderNumCntHour": 2101
+    },
+    {
+      "pickingTime": "9/1/2023 10:09:01",
+      "dateinfo": "2023-01-09",
+      "hourinfo": "10",
+      "batchNumCntHour": 139,
+      "orderNumCntHour": 2405
+    },
+    {
+      "pickingTime": "9/1/2023 11:16:13",
+      "dateinfo": "2023-01-09",
+      "hourinfo": "11",
+      "batchNumCntHour": 51,
+      "orderNumCntHour": 509
+    },
+    {
+      "pickingTime": "9/1/2023 12:30:38",
+      "dateinfo": "2023-01-09",
+      "hourinfo": "12",
+      "batchNumCntHour": 32,
+      "orderNumCntHour": 868
+    },
+    {
+      "pickingTime": "9/1/2023 13:07:14",
+      "dateinfo": "2023-01-09",
+      "hourinfo": "13",
+      "batchNumCntHour": 56,
+      "orderNumCntHour": 620
+    },
+    {
+      "pickingTime": "9/1/2023 14:02:48",
+      "dateinfo": "2023-01-09",
+      "hourinfo": "14",
+      "batchNumCntHour": 93,
+      "orderNumCntHour": 1084
+    },
+    {
+      "pickingTime": "9/1/2023 15:24:34",
+      "dateinfo": "2023-01-09",
+      "hourinfo": "15",
+      "batchNumCntHour": 36,
+      "orderNumCntHour": 438
+    },
+    {
+      "pickingTime": "9/1/2023 16:09:53",
+      "dateinfo": "2023-01-09",
+      "hourinfo": "16",
+      "batchNumCntHour": 55,
+      "orderNumCntHour": 614
+    },
+    {
+      "pickingTime": "9/1/2023 17:10:45",
+      "dateinfo": "2023-01-09",
+      "hourinfo": "17",
+      "batchNumCntHour": 33,
+      "orderNumCntHour": 339
+    },
+    {
+      "pickingTime": "9/1/2023 18:05:15",
+      "dateinfo": "2023-01-09",
+      "hourinfo": "18",
+      "batchNumCntHour": 13,
+      "orderNumCntHour": 78
+    },
+    {
+      "pickingTime": "10/1/2023 08:10:10",
+      "dateinfo": "2023-01-10",
+      "hourinfo": "8",
+      "batchNumCntHour": 114,
+      "orderNumCntHour": 3385
+    },
+    {
+      "pickingTime": "10/1/2023 09:30:22",
+      "dateinfo": "2023-01-10",
+      "hourinfo": "9",
+      "batchNumCntHour": 76,
+      "orderNumCntHour": 1706
+    },
+    {
+      "pickingTime": "10/1/2023 10:04:01",
+      "dateinfo": "2023-01-10",
+      "hourinfo": "10",
+      "batchNumCntHour": 49,
+      "orderNumCntHour": 724
+    },
+    {
+      "pickingTime": "10/1/2023 11:10:03",
+      "dateinfo": "2023-01-10",
+      "hourinfo": "11",
+      "batchNumCntHour": 57,
+      "orderNumCntHour": 810
+    },
+    {
+      "pickingTime": "10/1/2023 12:56:39",
+      "dateinfo": "2023-01-10",
+      "hourinfo": "12",
+      "batchNumCntHour": 1,
+      "orderNumCntHour": 19
+    },
+    {
+      "pickingTime": "10/1/2023 13:05:15",
+      "dateinfo": "2023-01-10",
+      "hourinfo": "13",
+      "batchNumCntHour": 92,
+      "orderNumCntHour": 1476
+    },
+    {
+      "pickingTime": "10/1/2023 14:04:11",
+      "dateinfo": "2023-01-10",
+      "hourinfo": "14",
+      "batchNumCntHour": 66,
+      "orderNumCntHour": 2054
+    },
+    {
+      "pickingTime": "10/1/2023 15:02:32",
+      "dateinfo": "2023-01-10",
+      "hourinfo": "15",
+      "batchNumCntHour": 30,
+      "orderNumCntHour": 787
+    },
+    {
+      "pickingTime": "10/1/2023 16:08:01",
+      "dateinfo": "2023-01-10",
+      "hourinfo": "16",
+      "batchNumCntHour": 70,
+      "orderNumCntHour": 991
+    },
+    {
+      "pickingTime": "10/1/2023 17:00:03",
+      "dateinfo": "2023-01-10",
+      "hourinfo": "17",
+      "batchNumCntHour": 53,
+      "orderNumCntHour": 675
+    },
+    {
+      "pickingTime": "10/1/2023 18:04:03",
+      "dateinfo": "2023-01-10",
+      "hourinfo": "18",
+      "batchNumCntHour": 14,
+      "orderNumCntHour": 72
+    },
+    {
+      "pickingTime": "11/1/2023 08:04:50",
+      "dateinfo": "2023-01-11",
+      "hourinfo": "8",
+      "batchNumCntHour": 109,
+      "orderNumCntHour": 3200
+    },
+    {
+      "pickingTime": "11/1/2023 09:16:46",
+      "dateinfo": "2023-01-11",
+      "hourinfo": "9",
+      "batchNumCntHour": 74,
+      "orderNumCntHour": 1647
+    },
+    {
+      "pickingTime": "11/1/2023 10:00:03",
+      "dateinfo": "2023-01-11",
+      "hourinfo": "10",
+      "batchNumCntHour": 38,
+      "orderNumCntHour": 669
+    },
+    {
+      "pickingTime": "11/1/2023 11:00:02",
+      "dateinfo": "2023-01-11",
+      "hourinfo": "11",
+      "batchNumCntHour": 14,
+      "orderNumCntHour": 625
+    },
+    {
+      "pickingTime": "11/1/2023 12:18:14",
+      "dateinfo": "2023-01-11",
+      "hourinfo": "12",
+      "batchNumCntHour": 83,
+      "orderNumCntHour": 1364
+    },
+    {
+      "pickingTime": "11/1/2023 13:05:57",
+      "dateinfo": "2023-01-11",
+      "hourinfo": "13",
+      "batchNumCntHour": 95,
+      "orderNumCntHour": 1040
+    },
+    {
+      "pickingTime": "11/1/2023 14:02:12",
+      "dateinfo": "2023-01-11",
+      "hourinfo": "14",
+      "batchNumCntHour": 62,
+      "orderNumCntHour": 899
+    },
+    {
+      "pickingTime": "11/1/2023 15:11:02",
+      "dateinfo": "2023-01-11",
+      "hourinfo": "15",
+      "batchNumCntHour": 40,
+      "orderNumCntHour": 451
+    },
+    {
+      "pickingTime": "11/1/2023 16:20:13",
+      "dateinfo": "2023-01-11",
+      "hourinfo": "16",
+      "batchNumCntHour": 45,
+      "orderNumCntHour": 543
+    },
+    {
+      "pickingTime": "11/1/2023 17:01:10",
+      "dateinfo": "2023-01-11",
+      "hourinfo": "17",
+      "batchNumCntHour": 41,
+      "orderNumCntHour": 388
+    },
+    {
+      "pickingTime": "11/1/2023 18:01:02",
+      "dateinfo": "2023-01-11",
+      "hourinfo": "18",
+      "batchNumCntHour": 22,
+      "orderNumCntHour": 99
+    },
+    {
+      "pickingTime": "12/1/2023 08:05:42",
+      "dateinfo": "2023-01-12",
+      "hourinfo": "8",
+      "batchNumCntHour": 112,
+      "orderNumCntHour": 2837
+    },
+    {
+      "pickingTime": "12/1/2023 09:00:08",
+      "dateinfo": "2023-01-12",
+      "hourinfo": "9",
+      "batchNumCntHour": 62,
+      "orderNumCntHour": 867
+    },
+    {
+      "pickingTime": "12/1/2023 10:09:06",
+      "dateinfo": "2023-01-12",
+      "hourinfo": "10",
+      "batchNumCntHour": 94,
+      "orderNumCntHour": 1555
+    },
+    {
+      "pickingTime": "12/1/2023 11:09:01",
+      "dateinfo": "2023-01-12",
+      "hourinfo": "11",
+      "batchNumCntHour": 49,
+      "orderNumCntHour": 560
+    },
+    {
+      "pickingTime": "12/1/2023 12:49:43",
+      "dateinfo": "2023-01-12",
+      "hourinfo": "12",
+      "batchNumCntHour": 14,
+      "orderNumCntHour": 406
+    },
+    {
+      "pickingTime": "12/1/2023 13:09:04",
+      "dateinfo": "2023-01-12",
+      "hourinfo": "13",
+      "batchNumCntHour": 95,
+      "orderNumCntHour": 1209
+    },
+    {
+      "pickingTime": "12/1/2023 14:31:17",
+      "dateinfo": "2023-01-12",
+      "hourinfo": "14",
+      "batchNumCntHour": 14,
+      "orderNumCntHour": 174
+    },
+    {
+      "pickingTime": "12/1/2023 15:13:06",
+      "dateinfo": "2023-01-12",
+      "hourinfo": "15",
+      "batchNumCntHour": 38,
+      "orderNumCntHour": 494
+    },
+    {
+      "pickingTime": "12/1/2023 16:50:50",
+      "dateinfo": "2023-01-12",
+      "hourinfo": "16",
+      "batchNumCntHour": 1,
+      "orderNumCntHour": 1
+    },
+    {
+      "pickingTime": "12/1/2023 17:07:07",
+      "dateinfo": "2023-01-12",
+      "hourinfo": "17",
+      "batchNumCntHour": 50,
+      "orderNumCntHour": 570
+    },
+    {
+      "pickingTime": "12/1/2023 18:05:39",
+      "dateinfo": "2023-01-12",
+      "hourinfo": "18",
+      "batchNumCntHour": 4,
+      "orderNumCntHour": 24
+    },
+    {
+      "pickingTime": "12/1/2023 19:01:51",
+      "dateinfo": "2023-01-12",
+      "hourinfo": "19",
+      "batchNumCntHour": 3,
+      "orderNumCntHour": 7
+    },
+    {
+      "pickingTime": "13/1/2023 08:10:48",
+      "dateinfo": "2023-01-13",
+      "hourinfo": "8",
+      "batchNumCntHour": 89,
+      "orderNumCntHour": 2183
+    },
+    {
+      "pickingTime": "13/1/2023 09:05:12",
+      "dateinfo": "2023-01-13",
+      "hourinfo": "9",
+      "batchNumCntHour": 75,
+      "orderNumCntHour": 1434
+    },
+    {
+      "pickingTime": "13/1/2023 10:00:50",
+      "dateinfo": "2023-01-13",
+      "hourinfo": "10",
+      "batchNumCntHour": 75,
+      "orderNumCntHour": 1238
+    },
+    {
+      "pickingTime": "13/1/2023 11:24:01",
+      "dateinfo": "2023-01-13",
+      "hourinfo": "11",
+      "batchNumCntHour": 47,
+      "orderNumCntHour": 528
+    },
+    {
+      "pickingTime": "13/1/2023 12:39:55",
+      "dateinfo": "2023-01-13",
+      "hourinfo": "12",
+      "batchNumCntHour": 32,
+      "orderNumCntHour": 369
+    },
+    {
+      "pickingTime": "13/1/2023 13:07:48",
+      "dateinfo": "2023-01-13",
+      "hourinfo": "13",
+      "batchNumCntHour": 10,
+      "orderNumCntHour": 277
+    },
+    {
+      "pickingTime": "13/1/2023 14:08:46",
+      "dateinfo": "2023-01-13",
+      "hourinfo": "14",
+      "batchNumCntHour": 33,
+      "orderNumCntHour": 452
+    },
+    {
+      "pickingTime": "13/1/2023 15:05:03",
+      "dateinfo": "2023-01-13",
+      "hourinfo": "15",
+      "batchNumCntHour": 68,
+      "orderNumCntHour": 1046
+    },
+    {
+      "pickingTime": "13/1/2023 16:29:16",
+      "dateinfo": "2023-01-13",
+      "hourinfo": "16",
+      "batchNumCntHour": 44,
+      "orderNumCntHour": 441
+    },
+    {
+      "pickingTime": "13/1/2023 17:00:28",
+      "dateinfo": "2023-01-13",
+      "hourinfo": "17",
+      "batchNumCntHour": 39,
+      "orderNumCntHour": 399
+    },
+    {
+      "pickingTime": "13/1/2023 18:01:49",
+      "dateinfo": "2023-01-13",
+      "hourinfo": "18",
+      "batchNumCntHour": 12,
+      "orderNumCntHour": 54
+    },
+    {
+      "pickingTime": "13/1/2023 19:02:35",
+      "dateinfo": "2023-01-13",
+      "hourinfo": "19",
+      "batchNumCntHour": 2,
+      "orderNumCntHour": 5
+    },
+    {
+      "pickingTime": "13/1/2023 22:23:01",
+      "dateinfo": "2023-01-13",
+      "hourinfo": "22",
+      "batchNumCntHour": 1,
+      "orderNumCntHour": 3
+    },
+    {
+      "pickingTime": "14/1/2023 08:38:02",
+      "dateinfo": "2023-01-14",
+      "hourinfo": "8",
+      "batchNumCntHour": 124,
+      "orderNumCntHour": 2994
+    },
+    {
+      "pickingTime": "14/1/2023 09:03:36",
+      "dateinfo": "2023-01-14",
+      "hourinfo": "9",
+      "batchNumCntHour": 34,
+      "orderNumCntHour": 444
+    },
+    {
+      "pickingTime": "14/1/2023 10:00:08",
+      "dateinfo": "2023-01-14",
+      "hourinfo": "10",
+      "batchNumCntHour": 46,
+      "orderNumCntHour": 765
+    },
+    {
+      "pickingTime": "14/1/2023 11:35:42",
+      "dateinfo": "2023-01-14",
+      "hourinfo": "11",
+      "batchNumCntHour": 27,
+      "orderNumCntHour": 417
+    },
+    {
+      "pickingTime": "14/1/2023 12:36:22",
+      "dateinfo": "2023-01-14",
+      "hourinfo": "12",
+      "batchNumCntHour": 41,
+      "orderNumCntHour": 1000
+    },
+    {
+      "pickingTime": "14/1/2023 13:16:53",
+      "dateinfo": "2023-01-14",
+      "hourinfo": "13",
+      "batchNumCntHour": 62,
+      "orderNumCntHour": 849
+    },
+    {
+      "pickingTime": "14/1/2023 14:23:53",
+      "dateinfo": "2023-01-14",
+      "hourinfo": "14",
+      "batchNumCntHour": 46,
+      "orderNumCntHour": 437
+    },
+    {
+      "pickingTime": "14/1/2023 15:14:01",
+      "dateinfo": "2023-01-14",
+      "hourinfo": "15",
+      "batchNumCntHour": 29,
+      "orderNumCntHour": 228
+    },
+    {
+      "pickingTime": "14/1/2023 16:05:33",
+      "dateinfo": "2023-01-14",
+      "hourinfo": "16",
+      "batchNumCntHour": 27,
+      "orderNumCntHour": 874
+    },
+    {
+      "pickingTime": "14/1/2023 17:11:45",
+      "dateinfo": "2023-01-14",
+      "hourinfo": "17",
+      "batchNumCntHour": 51,
+      "orderNumCntHour": 694
+    },
+    {
+      "pickingTime": "14/1/2023 18:03:08",
+      "dateinfo": "2023-01-14",
+      "hourinfo": "18",
+      "batchNumCntHour": 8,
+      "orderNumCntHour": 100
+    },
+    {
+      "pickingTime": "14/1/2023 19:01:40",
+      "dateinfo": "2023-01-14",
+      "hourinfo": "19",
+      "batchNumCntHour": 1,
+      "orderNumCntHour": 12
+    },
+    {
+      "pickingTime": "15/1/2023 08:36:45",
+      "dateinfo": "2023-01-15",
+      "hourinfo": "8",
+      "batchNumCntHour": 89,
+      "orderNumCntHour": 2275
+    },
+    {
+      "pickingTime": "15/1/2023 09:00:30",
+      "dateinfo": "2023-01-15",
+      "hourinfo": "9",
+      "batchNumCntHour": 66,
+      "orderNumCntHour": 799
+    },
+    {
+      "pickingTime": "15/1/2023 10:04:11",
+      "dateinfo": "2023-01-15",
+      "hourinfo": "10",
+      "batchNumCntHour": 79,
+      "orderNumCntHour": 1033
+    },
+    {
+      "pickingTime": "15/1/2023 11:15:37",
+      "dateinfo": "2023-01-15",
+      "hourinfo": "11",
+      "batchNumCntHour": 9,
+      "orderNumCntHour": 86
+    },
+    {
+      "pickingTime": "15/1/2023 12:25:06",
+      "dateinfo": "2023-01-15",
+      "hourinfo": "12",
+      "batchNumCntHour": 14,
+      "orderNumCntHour": 152
+    },
+    {
+      "pickingTime": "15/1/2023 13:05:14",
+      "dateinfo": "2023-01-15",
+      "hourinfo": "13",
+      "batchNumCntHour": 58,
+      "orderNumCntHour": 837
+    },
+    {
+      "pickingTime": "15/1/2023 14:00:24",
+      "dateinfo": "2023-01-15",
+      "hourinfo": "14",
+      "batchNumCntHour": 67,
+      "orderNumCntHour": 837
+    },
+    {
+      "pickingTime": "15/1/2023 15:02:17",
+      "dateinfo": "2023-01-15",
+      "hourinfo": "15",
+      "batchNumCntHour": 32,
+      "orderNumCntHour": 268
+    },
+    {
+      "pickingTime": "15/1/2023 16:09:40",
+      "dateinfo": "2023-01-15",
+      "hourinfo": "16",
+      "batchNumCntHour": 34,
+      "orderNumCntHour": 363
+    },
+    {
+      "pickingTime": "15/1/2023 17:02:21",
+      "dateinfo": "2023-01-15",
+      "hourinfo": "17",
+      "batchNumCntHour": 30,
+      "orderNumCntHour": 292
+    },
+    {
+      "pickingTime": "15/1/2023 18:04:36",
+      "dateinfo": "2023-01-15",
+      "hourinfo": "18",
+      "batchNumCntHour": 5,
+      "orderNumCntHour": 32
+    },
+    {
+      "pickingTime": "16/1/2023 08:09:53",
+      "dateinfo": "2023-01-16",
+      "hourinfo": "8",
+      "batchNumCntHour": 90,
+      "orderNumCntHour": 1930
+    },
+    {
+      "pickingTime": "16/1/2023 09:02:43",
+      "dateinfo": "2023-01-16",
+      "hourinfo": "9",
+      "batchNumCntHour": 74,
+      "orderNumCntHour": 1287
+    },
+    {
+      "pickingTime": "16/1/2023 10:12:26",
+      "dateinfo": "2023-01-16",
+      "hourinfo": "10",
+      "batchNumCntHour": 9,
+      "orderNumCntHour": 59
+    },
+    {
+      "pickingTime": "16/1/2023 11:10:49",
+      "dateinfo": "2023-01-16",
+      "hourinfo": "11",
+      "batchNumCntHour": 44,
+      "orderNumCntHour": 685
+    },
+    {
+      "pickingTime": "16/1/2023 12:44:22",
+      "dateinfo": "2023-01-16",
+      "hourinfo": "12",
+      "batchNumCntHour": 23,
+      "orderNumCntHour": 301
+    },
+    {
+      "pickingTime": "16/1/2023 13:05:09",
+      "dateinfo": "2023-01-16",
+      "hourinfo": "13",
+      "batchNumCntHour": 51,
+      "orderNumCntHour": 682
+    },
+    {
+      "pickingTime": "16/1/2023 14:46:36",
+      "dateinfo": "2023-01-16",
+      "hourinfo": "14",
+      "batchNumCntHour": 19,
+      "orderNumCntHour": 342
+    },
+    {
+      "pickingTime": "16/1/2023 15:01:15",
+      "dateinfo": "2023-01-16",
+      "hourinfo": "15",
+      "batchNumCntHour": 53,
+      "orderNumCntHour": 473
+    },
+    {
+      "pickingTime": "16/1/2023 16:26:04",
+      "dateinfo": "2023-01-16",
+      "hourinfo": "16",
+      "batchNumCntHour": 8,
+      "orderNumCntHour": 176
+    },
+    {
+      "pickingTime": "16/1/2023 17:06:42",
+      "dateinfo": "2023-01-16",
+      "hourinfo": "17",
+      "batchNumCntHour": 36,
+      "orderNumCntHour": 298
+    },
+    {
+      "pickingTime": "16/1/2023 18:02:36",
+      "dateinfo": "2023-01-16",
+      "hourinfo": "18",
+      "batchNumCntHour": 13,
+      "orderNumCntHour": 76
+    },
+    {
+      "pickingTime": "17/1/2023 08:04:36",
+      "dateinfo": "2023-01-17",
+      "hourinfo": "8",
+      "batchNumCntHour": 79,
+      "orderNumCntHour": 1481
+    },
+    {
+      "pickingTime": "17/1/2023 09:38:22",
+      "dateinfo": "2023-01-17",
+      "hourinfo": "9",
+      "batchNumCntHour": 60,
+      "orderNumCntHour": 1337
+    },
+    {
+      "pickingTime": "17/1/2023 10:02:22",
+      "dateinfo": "2023-01-17",
+      "hourinfo": "10",
+      "batchNumCntHour": 54,
+      "orderNumCntHour": 642
+    },
+    {
+      "pickingTime": "17/1/2023 11:17:09",
+      "dateinfo": "2023-01-17",
+      "hourinfo": "11",
+      "batchNumCntHour": 1,
+      "orderNumCntHour": 17
+    },
+    {
+      "pickingTime": "17/1/2023 12:48:00",
+      "dateinfo": "2023-01-17",
+      "hourinfo": "12",
+      "batchNumCntHour": 46,
+      "orderNumCntHour": 459
+    },
+    {
+      "pickingTime": "17/1/2023 13:36:03",
+      "dateinfo": "2023-01-17",
+      "hourinfo": "13",
+      "batchNumCntHour": 20,
+      "orderNumCntHour": 364
+    },
+    {
+      "pickingTime": "17/1/2023 14:03:13",
+      "dateinfo": "2023-01-17",
+      "hourinfo": "14",
+      "batchNumCntHour": 42,
+      "orderNumCntHour": 410
+    },
+    {
+      "pickingTime": "17/1/2023 15:23:00",
+      "dateinfo": "2023-01-17",
+      "hourinfo": "15",
+      "batchNumCntHour": 14,
+      "orderNumCntHour": 116
+    },
+    {
+      "pickingTime": "17/1/2023 16:28:22",
+      "dateinfo": "2023-01-17",
+      "hourinfo": "16",
+      "batchNumCntHour": 34,
+      "orderNumCntHour": 405
+    },
+    {
+      "pickingTime": "17/1/2023 17:09:14",
+      "dateinfo": "2023-01-17",
+      "hourinfo": "17",
+      "batchNumCntHour": 18,
+      "orderNumCntHour": 171
+    },
+    {
+      "pickingTime": "17/1/2023 18:11:01",
+      "dateinfo": "2023-01-17",
+      "hourinfo": "18",
+      "batchNumCntHour": 11,
+      "orderNumCntHour": 55
+    },
+    {
+      "pickingTime": "18/1/2023 08:07:05",
+      "dateinfo": "2023-01-18",
+      "hourinfo": "8",
+      "batchNumCntHour": 60,
+      "orderNumCntHour": 1312
+    },
+    {
+      "pickingTime": "18/1/2023 09:11:00",
+      "dateinfo": "2023-01-18",
+      "hourinfo": "9",
+      "batchNumCntHour": 97,
+      "orderNumCntHour": 1271
+    },
+    {
+      "pickingTime": "18/1/2023 10:14:34",
+      "dateinfo": "2023-01-18",
+      "hourinfo": "10",
+      "batchNumCntHour": 37,
+      "orderNumCntHour": 530
+    },
+    {
+      "pickingTime": "18/1/2023 11:12:29",
+      "dateinfo": "2023-01-18",
+      "hourinfo": "11",
+      "batchNumCntHour": 32,
+      "orderNumCntHour": 359
+    },
+    {
+      "pickingTime": "18/1/2023 12:36:24",
+      "dateinfo": "2023-01-18",
+      "hourinfo": "12",
+      "batchNumCntHour": 34,
+      "orderNumCntHour": 356
+    },
+    {
+      "pickingTime": "18/1/2023 13:36:28",
+      "dateinfo": "2023-01-18",
+      "hourinfo": "13",
+      "batchNumCntHour": 18,
+      "orderNumCntHour": 198
+    },
+    {
+      "pickingTime": "18/1/2023 14:06:32",
+      "dateinfo": "2023-01-18",
+      "hourinfo": "14",
+      "batchNumCntHour": 31,
+      "orderNumCntHour": 205
+    },
+    {
+      "pickingTime": "18/1/2023 15:08:35",
+      "dateinfo": "2023-01-18",
+      "hourinfo": "15",
+      "batchNumCntHour": 27,
+      "orderNumCntHour": 229
+    },
+    {
+      "pickingTime": "18/1/2023 16:08:43",
+      "dateinfo": "2023-01-18",
+      "hourinfo": "16",
+      "batchNumCntHour": 28,
+      "orderNumCntHour": 283
+    },
+    {
+      "pickingTime": "18/1/2023 17:05:46",
+      "dateinfo": "2023-01-18",
+      "hourinfo": "17",
+      "batchNumCntHour": 21,
+      "orderNumCntHour": 192
+    },
+    {
+      "pickingTime": "18/1/2023 18:07:55",
+      "dateinfo": "2023-01-18",
+      "hourinfo": "18",
+      "batchNumCntHour": 5,
+      "orderNumCntHour": 34
+    },
+    {
+      "pickingTime": "19/1/2023 09:03:52",
+      "dateinfo": "2023-01-19",
+      "hourinfo": "9",
+      "batchNumCntHour": 54,
+      "orderNumCntHour": 991
+    },
+    {
+      "pickingTime": "19/1/2023 10:04:04",
+      "dateinfo": "2023-01-19",
+      "hourinfo": "10",
+      "batchNumCntHour": 52,
+      "orderNumCntHour": 668
+    },
+    {
+      "pickingTime": "19/1/2023 11:18:33",
+      "dateinfo": "2023-01-19",
+      "hourinfo": "11",
+      "batchNumCntHour": 21,
+      "orderNumCntHour": 488
+    },
+    {
+      "pickingTime": "19/1/2023 12:38:25",
+      "dateinfo": "2023-01-19",
+      "hourinfo": "12",
+      "batchNumCntHour": 35,
+      "orderNumCntHour": 391
+    },
+    {
+      "pickingTime": "19/1/2023 13:11:52",
+      "dateinfo": "2023-01-19",
+      "hourinfo": "13",
+      "batchNumCntHour": 37,
+      "orderNumCntHour": 410
+    },
+    {
+      "pickingTime": "19/1/2023 14:06:16",
+      "dateinfo": "2023-01-19",
+      "hourinfo": "14",
+      "batchNumCntHour": 22,
+      "orderNumCntHour": 314
+    },
+    {
+      "pickingTime": "19/1/2023 15:08:34",
+      "dateinfo": "2023-01-19",
+      "hourinfo": "15",
+      "batchNumCntHour": 21,
+      "orderNumCntHour": 196
+    },
+    {
+      "pickingTime": "19/1/2023 16:00:19",
+      "dateinfo": "2023-01-19",
+      "hourinfo": "16",
+      "batchNumCntHour": 22,
+      "orderNumCntHour": 155
+    },
+    {
+      "pickingTime": "19/1/2023 17:04:26",
+      "dateinfo": "2023-01-19",
+      "hourinfo": "17",
+      "batchNumCntHour": 12,
+      "orderNumCntHour": 96
+    },
+    {
+      "pickingTime": "19/1/2023 18:00:05",
+      "dateinfo": "2023-01-19",
+      "hourinfo": "18",
+      "batchNumCntHour": 7,
+      "orderNumCntHour": 25
+    },
+    {
+      "pickingTime": "20/1/2023 09:11:03",
+      "dateinfo": "2023-01-20",
+      "hourinfo": "9",
+      "batchNumCntHour": 57,
+      "orderNumCntHour": 1458
+    },
+    {
+      "pickingTime": "20/1/2023 10:01:04",
+      "dateinfo": "2023-01-20",
+      "hourinfo": "10",
+      "batchNumCntHour": 67,
+      "orderNumCntHour": 1017
+    },
+    {
+      "pickingTime": "20/1/2023 11:03:53",
+      "dateinfo": "2023-01-20",
+      "hourinfo": "11",
+      "batchNumCntHour": 38,
+      "orderNumCntHour": 416
+    },
+    {
+      "pickingTime": "20/1/2023 12:10:01",
+      "dateinfo": "2023-01-20",
+      "hourinfo": "12",
+      "batchNumCntHour": 9,
+      "orderNumCntHour": 130
+    },
+    {
+      "pickingTime": "20/1/2023 13:12:52",
+      "dateinfo": "2023-01-20",
+      "hourinfo": "13",
+      "batchNumCntHour": 23,
+      "orderNumCntHour": 221
+    },
+    {
+      "pickingTime": "20/1/2023 14:02:10",
+      "dateinfo": "2023-01-20",
+      "hourinfo": "14",
+      "batchNumCntHour": 24,
+      "orderNumCntHour": 225
+    },
+    {
+      "pickingTime": "20/1/2023 15:05:59",
+      "dateinfo": "2023-01-20",
+      "hourinfo": "15",
+      "batchNumCntHour": 22,
+      "orderNumCntHour": 245
+    },
+    {
+      "pickingTime": "20/1/2023 16:29:21",
+      "dateinfo": "2023-01-20",
+      "hourinfo": "16",
+      "batchNumCntHour": 19,
+      "orderNumCntHour": 300
+    },
+    {
+      "pickingTime": "20/1/2023 17:03:07",
+      "dateinfo": "2023-01-20",
+      "hourinfo": "17",
+      "batchNumCntHour": 12,
+      "orderNumCntHour": 95
+    },
+    {
+      "pickingTime": "20/1/2023 18:05:39",
+      "dateinfo": "2023-01-20",
+      "hourinfo": "18",
+      "batchNumCntHour": 6,
+      "orderNumCntHour": 16
+    },
+    {
+      "pickingTime": "20/1/2023 20:10:44",
+      "dateinfo": "2023-01-20",
+      "hourinfo": "20",
+      "batchNumCntHour": 1,
+      "orderNumCntHour": 2
+    },
+    {
+      "pickingTime": "21/1/2023 09:45:31",
+      "dateinfo": "2023-01-21",
+      "hourinfo": "9",
+      "batchNumCntHour": 46,
+      "orderNumCntHour": 1187
+    },
+    {
+      "pickingTime": "21/1/2023 10:18:29",
+      "dateinfo": "2023-01-21",
+      "hourinfo": "10",
+      "batchNumCntHour": 39,
+      "orderNumCntHour": 536
+    },
+    {
+      "pickingTime": "21/1/2023 11:03:13",
+      "dateinfo": "2023-01-21",
+      "hourinfo": "11",
+      "batchNumCntHour": 14,
+      "orderNumCntHour": 187
+    },
+    {
+      "pickingTime": "21/1/2023 12:48:53",
+      "dateinfo": "2023-01-21",
+      "hourinfo": "12",
+      "batchNumCntHour": 3,
+      "orderNumCntHour": 59
+    },
+    {
+      "pickingTime": "21/1/2023 13:21:12",
+      "dateinfo": "2023-01-21",
+      "hourinfo": "13",
+      "batchNumCntHour": 17,
+      "orderNumCntHour": 191
+    },
+    {
+      "pickingTime": "21/1/2023 14:14:32",
+      "dateinfo": "2023-01-21",
+      "hourinfo": "14",
+      "batchNumCntHour": 11,
+      "orderNumCntHour": 83
+    },
+    {
+      "pickingTime": "21/1/2023 15:01:47",
+      "dateinfo": "2023-01-21",
+      "hourinfo": "15",
+      "batchNumCntHour": 10,
+      "orderNumCntHour": 54
+    },
+    {
+      "pickingTime": "22/1/2023 09:39:41",
+      "dateinfo": "2023-01-22",
+      "hourinfo": "9",
+      "batchNumCntHour": 38,
+      "orderNumCntHour": 753
+    },
+    {
+      "pickingTime": "22/1/2023 10:18:35",
+      "dateinfo": "2023-01-22",
+      "hourinfo": "10",
+      "batchNumCntHour": 28,
+      "orderNumCntHour": 360
+    },
+    {
+      "pickingTime": "22/1/2023 11:00:30",
+      "dateinfo": "2023-01-22",
+      "hourinfo": "11",
+      "batchNumCntHour": 13,
+      "orderNumCntHour": 135
+    },
+    {
+      "pickingTime": "22/1/2023 12:58:49",
+      "dateinfo": "2023-01-22",
+      "hourinfo": "12",
+      "batchNumCntHour": 11,
+      "orderNumCntHour": 117
+    },
+    {
+      "pickingTime": "22/1/2023 13:12:27",
+      "dateinfo": "2023-01-22",
+      "hourinfo": "13",
+      "batchNumCntHour": 13,
+      "orderNumCntHour": 121
+    },
+    {
+      "pickingTime": "22/1/2023 14:07:19",
+      "dateinfo": "2023-01-22",
+      "hourinfo": "14",
+      "batchNumCntHour": 21,
+      "orderNumCntHour": 143
+    },
+    {
+      "pickingTime": "22/1/2023 15:03:25",
+      "dateinfo": "2023-01-22",
+      "hourinfo": "15",
+      "batchNumCntHour": 5,
+      "orderNumCntHour": 45
+    },
+    {
+      "pickingTime": "23/1/2023 09:34:48",
+      "dateinfo": "2023-01-23",
+      "hourinfo": "9",
+      "batchNumCntHour": 56,
+      "orderNumCntHour": 1732
+    },
+    {
+      "pickingTime": "23/1/2023 10:13:51",
+      "dateinfo": "2023-01-23",
+      "hourinfo": "10",
+      "batchNumCntHour": 55,
+      "orderNumCntHour": 2023
+    },
+    {
+      "pickingTime": "23/1/2023 11:17:12",
+      "dateinfo": "2023-01-23",
+      "hourinfo": "11",
+      "batchNumCntHour": 5,
+      "orderNumCntHour": 83
+    },
+    {
+      "pickingTime": "23/1/2023 12:00:56",
+      "dateinfo": "2023-01-23",
+      "hourinfo": "12",
+      "batchNumCntHour": 39,
+      "orderNumCntHour": 761
+    },
+    {
+      "pickingTime": "23/1/2023 13:18:47",
+      "dateinfo": "2023-01-23",
+      "hourinfo": "13",
+      "batchNumCntHour": 11,
+      "orderNumCntHour": 118
+    },
+    {
+      "pickingTime": "23/1/2023 14:08:52",
+      "dateinfo": "2023-01-23",
+      "hourinfo": "14",
+      "batchNumCntHour": 39,
+      "orderNumCntHour": 437
+    },
+    {
+      "pickingTime": "23/1/2023 15:00:01",
+      "dateinfo": "2023-01-23",
+      "hourinfo": "15",
+      "batchNumCntHour": 15,
+      "orderNumCntHour": 104
+    },
+    {
+      "pickingTime": "23/1/2023 16:06:55",
+      "dateinfo": "2023-01-23",
+      "hourinfo": "16",
+      "batchNumCntHour": 3,
+      "orderNumCntHour": 17
+    },
+    {
+      "pickingTime": "23/1/2023 17:06:25",
+      "dateinfo": "2023-01-23",
+      "hourinfo": "17",
+      "batchNumCntHour": 1,
+      "orderNumCntHour": 3
+    },
+    {
+      "pickingTime": "24/1/2023 09:35:49",
+      "dateinfo": "2023-01-24",
+      "hourinfo": "9",
+      "batchNumCntHour": 73,
+      "orderNumCntHour": 2285
+    },
+    {
+      "pickingTime": "24/1/2023 10:12:45",
+      "dateinfo": "2023-01-24",
+      "hourinfo": "10",
+      "batchNumCntHour": 35,
+      "orderNumCntHour": 1318
+    },
+    {
+      "pickingTime": "24/1/2023 11:07:31",
+      "dateinfo": "2023-01-24",
+      "hourinfo": "11",
+      "batchNumCntHour": 66,
+      "orderNumCntHour": 1110
+    },
+    {
+      "pickingTime": "24/1/2023 12:14:32",
+      "dateinfo": "2023-01-24",
+      "hourinfo": "12",
+      "batchNumCntHour": 3,
+      "orderNumCntHour": 37
+    },
+    {
+      "pickingTime": "24/1/2023 13:00:41",
+      "dateinfo": "2023-01-24",
+      "hourinfo": "13",
+      "batchNumCntHour": 48,
+      "orderNumCntHour": 651
+    },
+    {
+      "pickingTime": "24/1/2023 14:04:12",
+      "dateinfo": "2023-01-24",
+      "hourinfo": "14",
+      "batchNumCntHour": 45,
+      "orderNumCntHour": 815
+    },
+    {
+      "pickingTime": "24/1/2023 15:05:09",
+      "dateinfo": "2023-01-24",
+      "hourinfo": "15",
+      "batchNumCntHour": 27,
+      "orderNumCntHour": 235
+    },
+    {
+      "pickingTime": "24/1/2023 16:19:05",
+      "dateinfo": "2023-01-24",
+      "hourinfo": "16",
+      "batchNumCntHour": 2,
+      "orderNumCntHour": 31
+    },
+    {
+      "pickingTime": "24/1/2023 18:21:59",
+      "dateinfo": "2023-01-24",
+      "hourinfo": "18",
+      "batchNumCntHour": 2,
+      "orderNumCntHour": 3
+    },
+    {
+      "pickingTime": "25/1/2023 08:35:06",
+      "dateinfo": "2023-01-25",
+      "hourinfo": "8",
+      "batchNumCntHour": 35,
+      "orderNumCntHour": 1447
+    },
+    {
+      "pickingTime": "25/1/2023 09:00:10",
+      "dateinfo": "2023-01-25",
+      "hourinfo": "9",
+      "batchNumCntHour": 96,
+      "orderNumCntHour": 1772
+    },
+    {
+      "pickingTime": "25/1/2023 10:29:07",
+      "dateinfo": "2023-01-25",
+      "hourinfo": "10",
+      "batchNumCntHour": 33,
+      "orderNumCntHour": 484
+    },
+    {
+      "pickingTime": "25/1/2023 11:26:40",
+      "dateinfo": "2023-01-25",
+      "hourinfo": "11",
+      "batchNumCntHour": 18,
+      "orderNumCntHour": 222
+    },
+    {
+      "pickingTime": "25/1/2023 12:10:08",
+      "dateinfo": "2023-01-25",
+      "hourinfo": "12",
+      "batchNumCntHour": 2,
+      "orderNumCntHour": 26
+    },
+    {
+      "pickingTime": "25/1/2023 13:08:31",
+      "dateinfo": "2023-01-25",
+      "hourinfo": "13",
+      "batchNumCntHour": 42,
+      "orderNumCntHour": 739
+    },
+    {
+      "pickingTime": "25/1/2023 14:16:43",
+      "dateinfo": "2023-01-25",
+      "hourinfo": "14",
+      "batchNumCntHour": 31,
+      "orderNumCntHour": 398
+    },
+    {
+      "pickingTime": "25/1/2023 15:21:14",
+      "dateinfo": "2023-01-25",
+      "hourinfo": "15",
+      "batchNumCntHour": 47,
+      "orderNumCntHour": 561
+    },
+    {
+      "pickingTime": "25/1/2023 16:31:13",
+      "dateinfo": "2023-01-25",
+      "hourinfo": "16",
+      "batchNumCntHour": 33,
+      "orderNumCntHour": 666
+    },
+    {
+      "pickingTime": "25/1/2023 17:07:03",
+      "dateinfo": "2023-01-25",
+      "hourinfo": "17",
+      "batchNumCntHour": 26,
+      "orderNumCntHour": 290
+    },
+    {
+      "pickingTime": "25/1/2023 18:05:53",
+      "dateinfo": "2023-01-25",
+      "hourinfo": "18",
+      "batchNumCntHour": 12,
+      "orderNumCntHour": 98
+    },
+    {
+      "pickingTime": "26/1/2023 08:36:11",
+      "dateinfo": "2023-01-26",
+      "hourinfo": "8",
+      "batchNumCntHour": 16,
+      "orderNumCntHour": 1455
+    },
+    {
+      "pickingTime": "26/1/2023 09:03:29",
+      "dateinfo": "2023-01-26",
+      "hourinfo": "9",
+      "batchNumCntHour": 76,
+      "orderNumCntHour": 1217
+    },
+    {
+      "pickingTime": "26/1/2023 10:07:37",
+      "dateinfo": "2023-01-26",
+      "hourinfo": "10",
+      "batchNumCntHour": 70,
+      "orderNumCntHour": 1476
+    },
+    {
+      "pickingTime": "26/1/2023 11:00:17",
+      "dateinfo": "2023-01-26",
+      "hourinfo": "11",
+      "batchNumCntHour": 46,
+      "orderNumCntHour": 740
+    },
+    {
+      "pickingTime": "26/1/2023 13:00:35",
+      "dateinfo": "2023-01-26",
+      "hourinfo": "13",
+      "batchNumCntHour": 58,
+      "orderNumCntHour": 916
+    },
+    {
+      "pickingTime": "26/1/2023 14:03:02",
+      "dateinfo": "2023-01-26",
+      "hourinfo": "14",
+      "batchNumCntHour": 25,
+      "orderNumCntHour": 261
+    },
+    {
+      "pickingTime": "26/1/2023 15:14:06",
+      "dateinfo": "2023-01-26",
+      "hourinfo": "15",
+      "batchNumCntHour": 22,
+      "orderNumCntHour": 246
+    },
+    {
+      "pickingTime": "26/1/2023 16:14:40",
+      "dateinfo": "2023-01-26",
+      "hourinfo": "16",
+      "batchNumCntHour": 47,
+      "orderNumCntHour": 1052
+    },
+    {
+      "pickingTime": "26/1/2023 17:05:16",
+      "dateinfo": "2023-01-26",
+      "hourinfo": "17",
+      "batchNumCntHour": 33,
+      "orderNumCntHour": 381
+    },
+    {
+      "pickingTime": "26/1/2023 18:05:15",
+      "dateinfo": "2023-01-26",
+      "hourinfo": "18",
+      "batchNumCntHour": 9,
+      "orderNumCntHour": 57
+    },
+    {
+      "pickingTime": "27/1/2023 08:36:10",
+      "dateinfo": "2023-01-27",
+      "hourinfo": "8",
+      "batchNumCntHour": 14,
+      "orderNumCntHour": 1046
+    },
+    {
+      "pickingTime": "27/1/2023 09:01:43",
+      "dateinfo": "2023-01-27",
+      "hourinfo": "9",
+      "batchNumCntHour": 86,
+      "orderNumCntHour": 2227
+    },
+    {
+      "pickingTime": "27/1/2023 10:09:48",
+      "dateinfo": "2023-01-27",
+      "hourinfo": "10",
+      "batchNumCntHour": 74,
+      "orderNumCntHour": 1126
+    },
+    {
+      "pickingTime": "27/1/2023 11:06:00",
+      "dateinfo": "2023-01-27",
+      "hourinfo": "11",
+      "batchNumCntHour": 34,
+      "orderNumCntHour": 967
+    },
+    {
+      "pickingTime": "27/1/2023 12:25:53",
+      "dateinfo": "2023-01-27",
+      "hourinfo": "12",
+      "batchNumCntHour": 58,
+      "orderNumCntHour": 930
+    },
+    {
+      "pickingTime": "27/1/2023 13:43:05",
+      "dateinfo": "2023-01-27",
+      "hourinfo": "13",
+      "batchNumCntHour": 35,
+      "orderNumCntHour": 492
+    },
+    {
+      "pickingTime": "27/1/2023 14:18:11",
+      "dateinfo": "2023-01-27",
+      "hourinfo": "14",
+      "batchNumCntHour": 26,
+      "orderNumCntHour": 630
+    },
+    {
+      "pickingTime": "27/1/2023 15:12:32",
+      "dateinfo": "2023-01-27",
+      "hourinfo": "15",
+      "batchNumCntHour": 32,
+      "orderNumCntHour": 510
+    },
+    {
+      "pickingTime": "27/1/2023 16:07:05",
+      "dateinfo": "2023-01-27",
+      "hourinfo": "16",
+      "batchNumCntHour": 86,
+      "orderNumCntHour": 1180
+    },
+    {
+      "pickingTime": "27/1/2023 17:14:11",
+      "dateinfo": "2023-01-27",
+      "hourinfo": "17",
+      "batchNumCntHour": 29,
+      "orderNumCntHour": 272
+    },
+    {
+      "pickingTime": "27/1/2023 18:02:23",
+      "dateinfo": "2023-01-27",
+      "hourinfo": "18",
+      "batchNumCntHour": 16,
+      "orderNumCntHour": 141
+    },
+    {
+      "pickingTime": "28/1/2023 08:39:01",
+      "dateinfo": "2023-01-28",
+      "hourinfo": "8",
+      "batchNumCntHour": 41,
+      "orderNumCntHour": 2234
+    },
+    {
+      "pickingTime": "28/1/2023 09:02:21",
+      "dateinfo": "2023-01-28",
+      "hourinfo": "9",
+      "batchNumCntHour": 52,
+      "orderNumCntHour": 839
+    },
+    {
+      "pickingTime": "28/1/2023 10:13:18",
+      "dateinfo": "2023-01-28",
+      "hourinfo": "10",
+      "batchNumCntHour": 30,
+      "orderNumCntHour": 1641
+    },
+    {
+      "pickingTime": "28/1/2023 11:00:30",
+      "dateinfo": "2023-01-28",
+      "hourinfo": "11",
+      "batchNumCntHour": 113,
+      "orderNumCntHour": 1650
+    },
+    {
+      "pickingTime": "28/1/2023 13:04:22",
+      "dateinfo": "2023-01-28",
+      "hourinfo": "13",
+      "batchNumCntHour": 68,
+      "orderNumCntHour": 878
+    },
+    {
+      "pickingTime": "28/1/2023 14:43:39",
+      "dateinfo": "2023-01-28",
+      "hourinfo": "14",
+      "batchNumCntHour": 14,
+      "orderNumCntHour": 699
+    },
+    {
+      "pickingTime": "28/1/2023 15:13:31",
+      "dateinfo": "2023-01-28",
+      "hourinfo": "15",
+      "batchNumCntHour": 65,
+      "orderNumCntHour": 1016
+    },
+    {
+      "pickingTime": "28/1/2023 16:00:20",
+      "dateinfo": "2023-01-28",
+      "hourinfo": "16",
+      "batchNumCntHour": 35,
+      "orderNumCntHour": 267
+    },
+    {
+      "pickingTime": "28/1/2023 17:06:54",
+      "dateinfo": "2023-01-28",
+      "hourinfo": "17",
+      "batchNumCntHour": 51,
+      "orderNumCntHour": 744
+    },
+    {
+      "pickingTime": "28/1/2023 18:09:36",
+      "dateinfo": "2023-01-28",
+      "hourinfo": "18",
+      "batchNumCntHour": 18,
+      "orderNumCntHour": 147
+    },
+    {
+      "pickingTime": "29/1/2023 08:25:34",
+      "dateinfo": "2023-01-29",
+      "hourinfo": "8",
+      "batchNumCntHour": 93,
+      "orderNumCntHour": 4799
+    },
+    {
+      "pickingTime": "29/1/2023 09:47:05",
+      "dateinfo": "2023-01-29",
+      "hourinfo": "9",
+      "batchNumCntHour": 99,
+      "orderNumCntHour": 1678
+    },
+    {
+      "pickingTime": "29/1/2023 10:04:33",
+      "dateinfo": "2023-01-29",
+      "hourinfo": "10",
+      "batchNumCntHour": 84,
+      "orderNumCntHour": 1583
+    },
+    {
+      "pickingTime": "29/1/2023 11:05:59",
+      "dateinfo": "2023-01-29",
+      "hourinfo": "11",
+      "batchNumCntHour": 7,
+      "orderNumCntHour": 144
+    },
+    {
+      "pickingTime": "29/1/2023 12:27:00",
+      "dateinfo": "2023-01-29",
+      "hourinfo": "12",
+      "batchNumCntHour": 39,
+      "orderNumCntHour": 2912
+    },
+    {
+      "pickingTime": "29/1/2023 13:40:19",
+      "dateinfo": "2023-01-29",
+      "hourinfo": "13",
+      "batchNumCntHour": 50,
+      "orderNumCntHour": 1341
+    },
+    {
+      "pickingTime": "29/1/2023 14:32:54",
+      "dateinfo": "2023-01-29",
+      "hourinfo": "14",
+      "batchNumCntHour": 117,
+      "orderNumCntHour": 2538
+    },
+    {
+      "pickingTime": "29/1/2023 15:02:57",
+      "dateinfo": "2023-01-29",
+      "hourinfo": "15",
+      "batchNumCntHour": 23,
+      "orderNumCntHour": 472
+    },
+    {
+      "pickingTime": "29/1/2023 16:05:35",
+      "dateinfo": "2023-01-29",
+      "hourinfo": "16",
+      "batchNumCntHour": 165,
+      "orderNumCntHour": 2664
+    },
+    {
+      "pickingTime": "29/1/2023 17:00:41",
+      "dateinfo": "2023-01-29",
+      "hourinfo": "17",
+      "batchNumCntHour": 50,
+      "orderNumCntHour": 451
+    },
+    {
+      "pickingTime": "29/1/2023 18:06:50",
+      "dateinfo": "2023-01-29",
+      "hourinfo": "18",
+      "batchNumCntHour": 111,
+      "orderNumCntHour": 1515
+    },
+    {
+      "pickingTime": "29/1/2023 19:02:19",
+      "dateinfo": "2023-01-29",
+      "hourinfo": "19",
+      "batchNumCntHour": 9,
+      "orderNumCntHour": 230
+    },
+    {
+      "pickingTime": "29/1/2023 20:28:47",
+      "dateinfo": "2023-01-29",
+      "hourinfo": "20",
+      "batchNumCntHour": 6,
+      "orderNumCntHour": 96
+    },
+    {
+      "pickingTime": "29/1/2023 21:20:01",
+      "dateinfo": "2023-01-29",
+      "hourinfo": "21",
+      "batchNumCntHour": 2,
+      "orderNumCntHour": 28
+    },
+    {
+      "pickingTime": "29/1/2023 22:04:11",
+      "dateinfo": "2023-01-29",
+      "hourinfo": "22",
+      "batchNumCntHour": 1,
+      "orderNumCntHour": 20
+    },
+    {
+      "pickingTime": "30/1/2023 08:08:42",
+      "dateinfo": "2023-01-30",
+      "hourinfo": "8",
+      "batchNumCntHour": 118,
+      "orderNumCntHour": 3878
+    },
+    {
+      "pickingTime": "30/1/2023 09:00:52",
+      "dateinfo": "2023-01-30",
+      "hourinfo": "9",
+      "batchNumCntHour": 111,
+      "orderNumCntHour": 2684
+    },
+    {
+      "pickingTime": "30/1/2023 10:20:57",
+      "dateinfo": "2023-01-30",
+      "hourinfo": "10",
+      "batchNumCntHour": 59,
+      "orderNumCntHour": 807
+    },
+    {
+      "pickingTime": "30/1/2023 11:00:00",
+      "dateinfo": "2023-01-30",
+      "hourinfo": "11",
+      "batchNumCntHour": 58,
+      "orderNumCntHour": 682
+    },
+    {
+      "pickingTime": "30/1/2023 12:29:10",
+      "dateinfo": "2023-01-30",
+      "hourinfo": "12",
+      "batchNumCntHour": 83,
+      "orderNumCntHour": 1825
+    },
+    {
+      "pickingTime": "30/1/2023 13:05:10",
+      "dateinfo": "2023-01-30",
+      "hourinfo": "13",
+      "batchNumCntHour": 46,
+      "orderNumCntHour": 1029
+    },
+    {
+      "pickingTime": "30/1/2023 14:16:29",
+      "dateinfo": "2023-01-30",
+      "hourinfo": "14",
+      "batchNumCntHour": 61,
+      "orderNumCntHour": 1154
+    },
+    {
+      "pickingTime": "30/1/2023 15:07:59",
+      "dateinfo": "2023-01-30",
+      "hourinfo": "15",
+      "batchNumCntHour": 91,
+      "orderNumCntHour": 1275
+    },
+    {
+      "pickingTime": "30/1/2023 16:01:50",
+      "dateinfo": "2023-01-30",
+      "hourinfo": "16",
+      "batchNumCntHour": 52,
+      "orderNumCntHour": 677
+    },
+    {
+      "pickingTime": "30/1/2023 17:05:24",
+      "dateinfo": "2023-01-30",
+      "hourinfo": "17",
+      "batchNumCntHour": 100,
+      "orderNumCntHour": 1364
+    },
+    {
+      "pickingTime": "30/1/2023 18:04:40",
+      "dateinfo": "2023-01-30",
+      "hourinfo": "18",
+      "batchNumCntHour": 37,
+      "orderNumCntHour": 204
+    },
+    {
+      "pickingTime": "30/1/2023 19:10:37",
+      "dateinfo": "2023-01-30",
+      "hourinfo": "19",
+      "batchNumCntHour": 3,
+      "orderNumCntHour": 16
+    },
+    {
+      "pickingTime": "30/1/2023 20:09:03",
+      "dateinfo": "2023-01-30",
+      "hourinfo": "20",
+      "batchNumCntHour": 1,
+      "orderNumCntHour": 20
+    },
+    {
+      "pickingTime": "31/1/2023 08:07:07",
+      "dateinfo": "2023-01-31",
+      "hourinfo": "8",
+      "batchNumCntHour": 120,
+      "orderNumCntHour": 3323
+    },
+    {
+      "pickingTime": "31/1/2023 09:07:48",
+      "dateinfo": "2023-01-31",
+      "hourinfo": "9",
+      "batchNumCntHour": 208,
+      "orderNumCntHour": 4758
+    },
+    {
+      "pickingTime": "31/1/2023 10:41:57",
+      "dateinfo": "2023-01-31",
+      "hourinfo": "10",
+      "batchNumCntHour": 69,
+      "orderNumCntHour": 2647
+    },
+    {
+      "pickingTime": "31/1/2023 11:06:01",
+      "dateinfo": "2023-01-31",
+      "hourinfo": "11",
+      "batchNumCntHour": 13,
+      "orderNumCntHour": 308
+    },
+    {
+      "pickingTime": "31/1/2023 12:22:30",
+      "dateinfo": "2023-01-31",
+      "hourinfo": "12",
+      "batchNumCntHour": 69,
+      "orderNumCntHour": 1965
+    },
+    {
+      "pickingTime": "31/1/2023 13:00:00",
+      "dateinfo": "2023-01-31",
+      "hourinfo": "13",
+      "batchNumCntHour": 100,
+      "orderNumCntHour": 1923
+    },
+    {
+      "pickingTime": "31/1/2023 14:04:58",
+      "dateinfo": "2023-01-31",
+      "hourinfo": "14",
+      "batchNumCntHour": 57,
+      "orderNumCntHour": 836
+    },
+    {
+      "pickingTime": "31/1/2023 15:04:10",
+      "dateinfo": "2023-01-31",
+      "hourinfo": "15",
+      "batchNumCntHour": 69,
+      "orderNumCntHour": 1222
+    },
+    {
+      "pickingTime": "31/1/2023 16:04:11",
+      "dateinfo": "2023-01-31",
+      "hourinfo": "16",
+      "batchNumCntHour": 63,
+      "orderNumCntHour": 893
+    },
+    {
+      "pickingTime": "31/1/2023 17:02:19",
+      "dateinfo": "2023-01-31",
+      "hourinfo": "17",
+      "batchNumCntHour": 105,
+      "orderNumCntHour": 1461
+    },
+    {
+      "pickingTime": "31/1/2023 18:13:30",
+      "dateinfo": "2023-01-31",
+      "hourinfo": "18",
+      "batchNumCntHour": 45,
+      "orderNumCntHour": 537
+    },
+    {
+      "pickingTime": "31/1/2023 19:06:19",
+      "dateinfo": "2023-01-31",
+      "hourinfo": "19",
+      "batchNumCntHour": 2,
+      "orderNumCntHour": 45
+    },
+    {
+      "pickingTime": "31/1/2023 20:18:26",
+      "dateinfo": "2023-01-31",
+      "hourinfo": "20",
+      "batchNumCntHour": 5,
+      "orderNumCntHour": 67
+    }
+  ]
+}
