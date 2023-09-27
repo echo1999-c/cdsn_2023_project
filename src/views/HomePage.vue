@@ -11,7 +11,9 @@
                 </el-row>
                 <el-row style="height: 50%;">
                     <el-col :span="12"></el-col>
-                    <el-col :span="12"></el-col>
+                    <el-col :span="12">
+                      <MareyChart></MareyChart>
+                    </el-col>
                 </el-row>
             </el-col>
 
@@ -31,10 +33,12 @@
 
 import Calendar from "@/components/Calendar"
 import Timeline from "@/components/Timeline"
+import MareyChart from "@/components/MareyChart.vue";
   
 export default {
     name: "homepage",
     components: {
+      MareyChart,
         Calendar,
         Timeline
     }
@@ -48,6 +52,7 @@ export default {
     position: absolute;
     left: 0;
     top: 0;
+  overflow: auto;
 }
 #wrapper{
     height: 100%;
