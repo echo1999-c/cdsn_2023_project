@@ -7,7 +7,8 @@
 
             <el-col :span="10" id="secondcol">
                 <el-row style="height: 50%;">
-                    <Timeline></Timeline>
+                    <Timeline2></Timeline2>
+                    <!-- <Timeline3></Timeline3> -->
                 </el-row>
                 <el-row style="height: 50%;">
                     <el-col :span="12"></el-col>
@@ -30,13 +31,15 @@
 <script>
 
 import Calendar from "@/components/Calendar"
-import Timeline from "@/components/Timeline"
+import Timeline3 from "@/components/Timeline3"
+import Timeline2 from "@/components/Timeline2"
   
 export default {
     name: "homepage",
     components: {
         Calendar,
-        Timeline
+        Timeline3,
+        Timeline2
     }
 };
 </script>

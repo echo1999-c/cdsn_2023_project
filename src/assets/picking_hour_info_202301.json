@@ -1,0 +1,88 @@
+{
+  "RECORDS": [
+    {
+      "pickingTime": "1/1/2023 08:34:09",
+      "dateinfo": "2023-01-01",
+      "hourinfo": "8",
+      "batchNumCntHour": 57,
+      "orderNumCntHour": 2942
+    },
+    {
+      "pickingTime": "1/1/2023 09:00:49",
+      "dateinfo": "2023-01-01",
+      "hourinfo": "9",
+      "batchNumCntHour": 111,
+      "orderNumCntHour": 2981
+    },
+    {
+      "pickingTime": "1/1/2023 10:03:00",
+      "dateinfo": "2023-01-01",
+      "hourinfo": "10",
+      "batchNumCntHour": 140,
+      "orderNumCntHour": 2485
+    },
+    {
+      "pickingTime": "1/1/2023 11:12:18",
+      "dateinfo": "2023-01-01",
+      "hourinfo": "11",
+      "batchNumCntHour": 12,
+      "orderNumCntHour": 242
+    },
+    {
+      "pickingTime": "1/1/2023 12:22:24",
+      "dateinfo": "2023-01-01",
+      "hourinfo": "12",
+      "batchNumCntHour": 34,
+      "orderNumCntHour": 294
+    },
+    {
+      "pickingTime": "1/1/2023 13:03:05",
+      "dateinfo": "2023-01-01",
+      "hourinfo": "13",
+      "batchNumCntHour": 118,
+      "orderNumCntHour": 2109
+    },
+    {
+      "pickingTime": "1/1/2023 14:18:54",
+      "dateinfo": "2023-01-01",
+      "hourinfo": "14",
+      "batchNumCntHour": 69,
+      "orderNumCntHour": 949
+    },
+    {
+      "pickingTime": "1/1/2023 15:18:51",
+      "dateinfo": "2023-01-01",
+      "hourinfo": "15",
+      "batchNumCntHour": 51,
+      "orderNumCntHour": 664
+    },
+    {
+      "pickingTime": "1/1/2023 16:02:13",
+      "dateinfo": "2023-01-01",
+      "hourinfo": "16",
+      "batchNumCntHour": 82,
+      "orderNumCntHour": 1065
+    },
+    {
+      "pickingTime": "1/1/2023 17:10:36",
+      "dateinfo": "2023-01-01",
+      "hourinfo": "17",
+      "batchNumCntHour": 56,
+      "orderNumCntHour": 665
+    },
+    {
+      "pickingTime": "1/1/2023 18:06:05",
+      "dateinfo": "2023-01-01",
+      "hourinfo": "18",
+      "batchNumCntHour": 7,
+      "orderNumCntHour": 69
+    },
+    {
+      "pickingTime": "1/1/2023 19:09:57",
+      "dateinfo": "2023-01-01",
+      "hourinfo": "19",
+      "batchNumCntHour": 9,
+      "orderNumCntHour": 24
+    }
+  ]
+}
