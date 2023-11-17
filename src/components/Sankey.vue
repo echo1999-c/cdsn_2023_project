@@ -19,320 +19,439 @@ export default {
         }
     },
     methods: {
-        // draw() {
-        //     var data = [{ waveNumber: "W1", orderCount: 10, productCount: 20, pickingTime: 30 },
-        //                 { waveNumber: "W2", orderCount: 5, productCount: 15, pickingTime: 25 },
-        //                 { waveNumber: "W3", orderCount: 8, productCount: 18, pickingTime: 35 },
-        //                 // ... 其他数据项
-        //                 ];
-
-        //     // 对数据按照订单数量进行排序
-        //     data.sort((a, b) => b.orderCount - a.orderCount);
-
-        //     let width = this.width
-        //     let height = this.height
-
-        //     // 创建 SVG 容器
-        //     var svg = d3.select("#SankeyView")
-        //                 .append("svg")
-        //                 .attr("width", width)
-        //                 .attr("height", height);
-
-        //     // 创建桑基图布局
-        //     var sankey = d3Sankey()
-        //                     .nodeWidth(5) //矩形节点的宽度
-        //                     .nodePadding(10) //矩形节点的间隙
-        //                     .extent([[0, 0], [width, height]]);
-
-        //     // 构建桑基图数据
-        //     var sankeyData = {
-        //                         nodes: [],
-        //                         links: []
-        //                     };
-            
-        //     data.forEach((d, i) => {
-        //         sankeyData.nodes.push({ name: d.waveNumber });
-        //         sankeyData.nodes.push({ name: "订单数量" });
-        //         sankeyData.nodes.push({ name: "货品数量" });
-        //         sankeyData.nodes.push({ name: "拣货时间" });
-
-        //         sankeyData.links.push({ source: i * 4, target: i * 4 + 1, value: d.orderCount });
-        //         sankeyData.links.push({ source: i * 4, target: i * 4 + 2, value: d.productCount });
-        //         sankeyData.links.push({ source: i * 4, target: i * 4 + 3, value: d.pickingTime });
-        //     });
-
-        //     // 通过桑基图布局计算节点和链接的布局信息
-        //     var { nodes, links } = sankey(sankeyData);
-        //     console.log("nodes", nodes)
-        //     console.log("links", links)
-
-        //     // 创建连线
-        //     var link = svg.append("g")
-        //                 .selectAll("path")
-        //                 .data(links)
-        //                 .enter()
-        //                 .append("path")
-        //                 .attr("d", d3SsankeyLinkHorizontal())
-        //                 .attr("fill", "none")
-        //                 .attr("stroke", "black")
-        //                 .attr("stroke-width", d => Math.max(1, d.width));
-
-        //     // 创建节点
-        //     var node = svg.append("g")
-        //                 .selectAll("rect")
-        //                 .data(nodes)
-        //                 .enter()
-        //                 .append("rect")
-        //                 .attr("x", d => d.x0)
-        //                 .attr("y", d => d.y0)
-        //                 .attr("height", d => d.y1 - d.y0)
-        //                 .attr("width", d => d.x1 - d.x0)
-        //                 .attr("fill", d => {
-        //                     if (d.depth === 0) return "#ccc";
-        //                     if (d.depth === 1) return "steelblue";
-        //                     return "lightgray";
-        //                 });
-
-        //     // // 创建节点标签
-        //     // var label = svg.append("g")
-        //     //             .selectAll("text")
-        //     //             .data(nodes)
-        //     //             .enter()
-        //     //             .append("text")
-        //     //             .attr("x", d => d.x0 + 10)
-        //     //             .attr("y", d => (d.y1 + d.y0) / 2)
-        //     //             .attr("dy", "0.35em")
-        //     //             .text(d => d.name)
-        //     //             .attr("fill", "white");
-
-        //     // // 创建图例
-        //     // var legend = svg.append("g")
-        //     //                 .attr("transform", "translate(20,20)");
-
-        //     // legend.append("rect")
-        //     //     .attr("x", 0)
-        //     //     .attr("y", 0)
-        //     //     .attr("width", 15)
-        //     //     .attr("height", 15)
-        //     //     .attr("fill", "steelblue");
-
-        //     // legend.append("text")
-        //     //         .attr("x", 20)
-        //     //         .attr("y", 12.5)
-        //     //         .text("订单数量");
-
-        //     // legend.append("rect")
-        //     //     .attr("x", 0)
-        //     //     .attr("y", 25)
-        //     //     .attr("width", 15)
-        //     //     .attr("height", 15)
-        // },
        draw(){
-        var data = [
-            { waveNumber: "W1", orderCount: 10, productCount: 20, pickingTime: 30 },
-            { waveNumber: "W2", orderCount: 5, productCount: 15, pickingTime: 25 },
-            { waveNumber: "W3", orderCount: 8, productCount: 18, pickingTime: 35 },
-            { waveNumber: "W4", orderCount: 9, productCount: 22, pickingTime: 15 }
-        ];
+            var data = [
+                { waveNumber: "W1", orderCount: 10, productCount: 20, pickingTime: 30 },
+                { waveNumber: "W2", orderCount: 5, productCount: 15, pickingTime: 25 },
+                { waveNumber: "W3", orderCount: 8, productCount: 18, pickingTime: 35 },
+                { waveNumber: "W4", orderCount: 9, productCount: 22, pickingTime: 15 }
+            ];
+            // console.log("data", data)
+            
+            
 
-        let width = this.width
-        let height = this.height
-        const margin = { top: 10, right: 10, bottom: 10, left: 10 };
+            let width = this.width
+            let height = this.height
+            const margin = { top: 10, right: 10, bottom: 10, left: 10 };
 
-        const svg = d3.select("#SankeyView")
-                    .append('svg')
-                    .attr('width', width)
-                    .attr('height', height)
-        var sum_order = 0
-        var sum_product = 0
-        var sum_pickingTime = 0
-        for(let i = 0; i < data.length; i++) {
-            // console.log(data[i].orderCount)
-            sum_order += data[i].orderCount
-            sum_product += data[i].productCount
-            sum_pickingTime += data[i].pickingTime
-        }
+            const svg = d3.select("#SankeyView")
+                        .append('svg')
+                        .attr('width', width)
+                        .attr('height', height)
+            var sum_order = 0
+            var sum_product = 0
+            var sum_pickingTime = 0
+            for(let i = 0; i < data.length; i++) {
+                // console.log(data[i].orderCount)
+                sum_order += data[i].orderCount
+                sum_product += data[i].productCount
+                sum_pickingTime += data[i].pickingTime
+            }
+            
+
+            // function creatCountobj(waveNumber, orderCount, productCount, pickingTime) {
+            //     let obj = new Object()
+            //     obj.waveNumber = waveNumber
+            //     obj.orderCount = orderCount
+            //     obj.productCount = productCount
+            //     obj.pickingTime = pickingTime
+            //     return obj
+            // }
+
+            
+            var orderSort = data.slice().sort(function(a, b) {
+                return b.orderCount - a.orderCount;
+            });
+
+            var productSort = data.slice().sort(function(a, b) {
+                return b.productCount - a.productCount;
+            });
+            
+            var timeSort = data.slice().sort(function(a, b) {
+                return b.pickingTime - a.pickingTime;
+            });
+
+            var globalList = []
+            globalList.push(data.slice(), orderSort, productSort, timeSort)
+            // console.log("globalList", globalList)
+            
+            
+            var stackOrder = []
+            var tempOrder = 0
+            for(let i = 0; i < orderSort.length; i++) {
+                stackOrder.push(tempOrder + orderSort[i].orderCount)
+                tempOrder  += orderSort[i].orderCount
+            }
+            // console.log("stackOrder", stackOrder)
         
 
-        function creatCountobj(waveNumber, orderCount, productCount, pickingTime) {
-            let obj = new Object()
-            obj.waveNumber = waveNumber
-            obj.orderCount = orderCount
-            obj.productCount = productCount
-            obj.pickingTime = pickingTime
-            return obj
-        }
-        var fineOrderList = []
-        for(let i = 0; i < data.length; i++) {
-            let o = creatCountobj(data[i].waveNumber, data[i].orderCount, data[i].productCount, data[i].pickingTime)
-            fineOrderList.push(o)
-        }
-
-        // 创建一个用于排序的比较函数
-        var compareOrder = function(a, b) {
-            return b.orderCount - a.orderCount;
-        };
-        var compareProduct = function(a, b) {
-            return b.productCount - a.productCount;
-        };
-        var comparePickingTime = function(a, b) {
-            return b.pickingTime - a.pickingTime;
-        };
-
+            
+            var stackProduct = []
+            var tempProduct = 0
+            for(let i = 0; i < productSort.length; i++) {
+                stackProduct.push(tempProduct + productSort[i].productCount)
+                tempProduct  += productSort[i].productCount
+            }
+            // console.log("stackProduct", stackProduct)
         
-        var stackOrder = []
-        var tempOrder = 0
-        // 使用比较函数对数据进行排序
-        fineOrderList.sort(compareOrder);
-        for(let i = 0; i < fineOrderList.length; i++) {
-            stackOrder.push(tempOrder + fineOrderList[i].orderCount)
-            tempOrder  += fineOrderList[i].orderCount
-        }
 
-        var tempProduct = 0
-        var stackProduct = []
+            
+            var stackPickingTime = []
+            var tempPickingTime = 0
+            for(let i = 0; i < timeSort.length; i++) {
+                stackPickingTime.push(tempPickingTime + timeSort[i].pickingTime)
+                tempPickingTime  += timeSort[i].pickingTime
+            }
+            // console.log("stackPickingTime", stackPickingTime)
+            
+            
+            var orderScale = d3.scaleLinear()
+                        .domain([0, sum_order])
+                        .range([0, height]);
         
-        fineOrderList.sort(compareProduct);
-        for(let i = 0; i < fineOrderList.length; i++) {
-            stackProduct.push(tempProduct + fineOrderList[i].productCount)
-            tempProduct  += fineOrderList[i].productCount
-        }
+            var productScale = d3.scaleLinear()
+                        .domain([0, sum_product])
+                        .range([0, height]);
 
-        var tempPickingTime = 0
-        var stackPickingTime = []
-        fineOrderList.sort(comparePickingTime);
-        for(let i = 0; i < fineOrderList.length; i++) {
-            stackPickingTime.push(tempPickingTime + fineOrderList[i].pickingTime)
-            tempPickingTime  += fineOrderList[i].pickingTime
-        }
-        
-        // console.log(sum_order)
-        var orderScale = d3.scaleLinear()
-                    .domain([0, sum_order])
-                    .range([0, height]);
-        // console.log("orderScale(10)", orderScale(10))
-        var productScale = d3.scaleLinear()
-                    .domain([0, sum_product])
-                    .range([0, height]);
-        var pickingTimeScale = d3.scaleLinear()
-                    .domain([0, sum_pickingTime])
-                    .range([0, height]);
+            var pickingTimeScale = d3.scaleLinear()
+                        .domain([0, sum_pickingTime])
+                        .range([0, height]);
 
-        
-        
-        var colors = ["#C6D57E", "#D57E7E", "#A2CDCD", "#EB92BE"];
+            
+            var colors = ["#C6D57E", "#D57E7E", "#A2CDCD", "#EB92BE"];
 
-        // 绘制表示波次号的矩形
-        svg.selectAll(".wave-rect")
-            .data(data)
-            .enter()
-            .append("rect")
-            .attr("class", "wave-rect")
-            .attr("x", margin.left)
-            .attr("y", (d, i) => {
-                return margin.top + i * 40 + i * 80
-            })
-            .attr("width", 20)
-            .attr("height", 40)
-            .attr("fill", "gray");
+            var viewHeight = height - margin.top - margin.bottom
+            var gapSpace = 20
+            var number = data.length
+            var batchHeight = (viewHeight - (number - 1) * gapSpace) / number
 
-        // 绘制表示订单数量的矩形
-        svg.selectAll(".order-rect")
-           .data(fineOrderList.sort(compareOrder))
-           .enter()
-           .append("rect")
-           .attr("class", "order-rect")
-           .attr("x", margin.left + 100)
-           .attr("y", (d, i) => {
-                // console.log(d)
-                if(i === 0)
-                    return 0
-                else
-                    return stackOrder[i - 1] / sum_order * height
-           })
-           .attr("width", 40)
-           .attr("height", (d, i) => {
-                return orderScale(d.orderCount)
-           })
-           .attr("fill", (d, i) =>{ 
-                    if(d.waveNumber == "W1")
-                      return colors[0]
-                    if(d.waveNumber == "W2")
-                      return colors[1]
-                    if(d.waveNumber == "W3")
-                      return colors[2]
-                    if(d.waveNumber == "W4")
-                      return colors[3]
-                  });
-
-            // 绘制表示货品数量的矩形
-            svg.selectAll(".product-rect")
-            .data(fineOrderList.sort(compareProduct))
-            .enter()
-            .append("rect")
-            .attr("class", "product-rect")
-            .attr("x", margin.left + 200)
-            .attr("y", (d, i) => {
-                    if(i === 0)
-                        return 0
-                    else
-                        return stackProduct[i - 1] / sum_product * height
-            })
-            .attr("width", 40)
-            .attr("height", (d, i) => {
-                    return productScale(d.productCount)
-            })
-            .attr("fill", (d, i) =>{ 
+            let tooltip = d3.select('#SankeyView')
+                            .append("div")
+                            .attr("class", "tool-tip");
+            let selectedStrokeWidth = 2
+            
+            var rectWidth = 40
+            // 绘制并列的堆叠矩形
+            for(var j = 0; j < 4; j++) {
+                var rects = svg.append("g")
+                    .selectAll("g")
+                    .data(globalList[j])
+                    .join("rect")
+                    .attr("id", (d, i) => {
+                        if(j == 0) return "batch " + d.waveNumber
+                        else if(j == 1) return "orderCount " + d.waveNumber
+                        else if(j == 2) return "productCount " + d.waveNumber
+                        else if(j == 3) return "pickingTime " + d.waveNumber
+                    })
+                    .attr("class", (d, i) => {
+                        // if(j == 0) return "wavenumber_sel " + d.waveNumber
+                        // else if(j == 1) return "orderCount_" + d.waveNumber     
+                        // else if(j == 2) return "productCount_" + d.waveNumber
+                        // else if(j == 3) return "pickingTime_" + d.waveNumber
+                        if(j == 0)
+                            return "wavenumber_sel " + d.waveNumber
+                        else  
+                            return "node " + d.waveNumber
+                    })
+                    .attr("waveNumber",  (d, i) => {
+                            return d.waveNumber
+                    })
+                    .attr("x", (d,i) => {
+                        return   20 + j * 80            
+                    })
+                    .attr("y", (d, i) => {
+                        if(j == 0) {
+                            return 100 + i * 80 + i * 10
+                        } else {
+                            if(i == 0)
+                                return 0
+                            else {
+                                if(j == 1) return orderScale(stackOrder[i - 1])     
+                                else if(j == 2) return productScale(stackProduct[i - 1])
+                                else if(j == 3) return pickingTimeScale(stackPickingTime[i - 1])
+                            }
+                        }
+                    })
+                    .attr("height", (d, i) => {
+                        if(j == 0) {
+                            return 30
+                        }
+                        else if(j == 1) {
+                            return orderScale(d.orderCount)
+                        }    
+                        else if(j == 2) {
+                            return productScale(d.productCount)
+                        }
+                        else if(j == 3) {
+                            return pickingTimeScale(d.pickingTime)
+                        }
+                    })
+                    .attr("width", (d, i) => {
+                        return rectWidth
+                    })
+                    .attr("fill", (d, i) =>{ 
                         if(d.waveNumber == "W1")
-                        return colors[0]
+                            return colors[0]
                         if(d.waveNumber == "W2")
-                        return colors[1]
+                            return colors[1]
                         if(d.waveNumber == "W3")
-                        return colors[2]
+                            return colors[2]
                         if(d.waveNumber == "W4")
-                        return colors[3]
-                    });
+                            return colors[3]
+                    })
+                    .style("fill-opacity", 1)
+                    // .attr('stroke', (d, i) =>{ 
+                    //     if(d.waveNumber == "W1")
+                    //         return colors[0]
+                    //     if(d.waveNumber == "W2")
+                    //         return colors[1]
+                    //     if(d.waveNumber == "W3")
+                    //         return colors[2]
+                    //     if(d.waveNumber == "W4")
+                    //         return colors[3]
+                    // })
+                    // .attr('stroke-width', 1)                                  
+                    .on("mousemove", function (event, d) {
+                        let toElementId = event.toElement.id
+                        let columnName = toElementId.substring(0, toElementId.indexOf(' '));
+                        console.log("columnName", columnName)
+                        
+                       
+                        let html = ''
+                        if(columnName == 'batch')
+                            html += `waveNumber: ${d.waveNumber} <br>`
+                        else if(columnName == 'orderCount')
+                            html += `waveNumber: ${d.waveNumber} <br>
+                                    orderCount: ${d.orderCount} <br>`
+                        else if(columnName == 'productCount')
+                            html += `waveNumber: ${d.waveNumber} <br>
+                                    productCount: ${d.productCount} <br>`
+                        else if(columnName == 'pickingTime')
+                            html += `waveNumber: ${d.waveNumber} <br>
+                                    pickingTime: ${d.pickingTime} <br>`
+                        
+                        tooltip.style("left", event.clientX - 280  + 'px')
+                                .style("top", event.layerY + 50 + 'px')
+                                .style("width", 150 + 'px')
+                                .style("display", "inline-block")
+                                .html(html);
+                        
+                        let thisPath = d3.select(this)
+                        console.log("thisPath", thisPath)
+                        thisPath.style('stroke-width', 5)
+                    })
+                    .on("mouseout", function (event, d) {
+                        tooltip.style("display", "none")
+                        let thisPath = d3.select(this)
+                        thisPath.style('stroke-width', 1)
+                    })
 
+                //创建对象
+                function createLink(waveNumber, x, y, h){
+                    var o = new Object()
+                    o.waveNumber = waveNumber;
+                    o.x = x;
+                    o.y = y;
+                    o.h = h
+                    return o;
+                }
 
-            // 绘制表示拣货时间的矩形
-            svg.selectAll(".time-rect")
-            .data(fineOrderList.sort(comparePickingTime))
-            .enter()
-            .append("rect")
-            .attr("class", "time-rect")
-            .attr("x", margin.left + 350)
-            .attr("y", (d, i) => {
-                    if(i === 0)
-                        return 0
-                    else
-                        return stackPickingTime[i - 1] / sum_pickingTime * height
+                function Link(source, target){
+                    var o = new Object()
+                    o.source = source;
+                    o.target = target;
+                    return o;
+                } 
+                
+                var link_list = []
+                for(var x = 0; x < globalList.length - 1; x++){
+                    for(var y = 0; y < globalList[x].length; y++){
+                        var temp_loc = 0 //定位下一列中的坐标
+                        for(var z = 0; z < globalList[x].length; z++){
+                            if(globalList[x][y].waveNumber == globalList[x + 1][z].waveNumber){
+                                temp_loc = z
+                            }
+                        } 
+                        // console.log("temp_loc", temp_loc)
+                        var temp1 = globalList[x][y] //source所在的矩形
+                        var temp2 = globalList[x + 1][temp_loc] //target所在的矩形
+
+                        if(x == 0) {
+                            var creatlink1 = createLink(temp1.waveNumber, 0, 100 + y * 80 + y * 10, 30)
+                            var creatlink2
+                            if(temp_loc == 0) {
+                                creatlink2 = createLink(temp2.waveNumber, 0, 0, orderScale(temp2.orderCount))
+                            } else {
+                                creatlink2 = createLink(temp2.waveNumber, 0, orderScale(stackOrder[temp_loc - 1]), orderScale(temp2.orderCount))
+                            }
+                            var link = Link(creatlink1, creatlink2)
+                            link_list.push(link)
+                        }
+
+                        else if(x == 1) { // 从orderCount到productCount
+                            // console.log("temp1.orderCount", temp1.orderCount)
+                            // console.log("temp2.productCount", temp2.productCount)
+                            if(y == 0 && temp_loc == 0){               
+                                var creatlink1 = createLink(temp1.waveNumber, 0, 0, orderScale(temp1.orderCount))
+                                var creatlink2 = createLink(temp2.waveNumber, 0, 0, productScale(temp2.productCount))
+                            }
+                            else if(y == 0 && temp_loc != 0){                         
+                                var creatlink1 = createLink(temp1.waveNumber, 0, 0, orderScale(temp1.orderCount))
+                                var creatlink2 = createLink(temp2.waveNumber, 0, productScale(stackProduct[temp_loc - 1]), productScale(temp2.productCount))
+                            }
+                            else if(y != 0 && temp_loc == 0){
+                                var creatlink1 = createLink(temp1.waveNumber, 0, orderScale(stackOrder[y-1]), orderScale(temp1.orderCount))
+                                var creatlink2 = createLink(temp2.waveNumber, 0, 0, productScale(temp2.productCount))
+                            }
+                            else if(y != 0 && temp_loc != 0){
+                                var creatlink1 = createLink(temp1.waveNumber, 0, orderScale(stackOrder[y-1]), orderScale(temp1.orderCount))
+                                var creatlink2 = createLink(temp2.waveNumber, 0, productScale(stackProduct[temp_loc - 1]), productScale(temp2.productCount))
+                            }
+                            var link = Link(creatlink1, creatlink2)
+                            link_list.push(link)
+                        }
+                        else if(x == 2) {
+                            if(y == 0 && temp_loc == 0){
+                                var creatlink1 = createLink(temp1.waveNumber, 0, 0, productScale(temp1.productCount))
+                                var creatlink2 = createLink(temp2.waveNumber, 0, 0, pickingTimeScale(temp2.pickingTime))
+                            }
+                            else if(y == 0 && temp_loc != 0){
+                                var creatlink1 = createLink(temp1.waveNumber, 0, 0, productScale(temp1.productCount))
+                                var creatlink2 = createLink(temp2.waveNumber, 0, pickingTimeScale(stackPickingTime[temp_loc - 1]), pickingTimeScale(temp2.pickingTime))
+                            }
+                            else if(y != 0 && temp_loc == 0){
+                                var creatlink1 = createLink(temp1.waveNumber, 0, productScale(stackProduct[y-1]), productScale(temp1.productCount))
+                                var creatlink2 = createLink(temp2.waveNumber, 0, 0, pickingTimeScale(temp2.pickingTime))
+                            } 
+                            else if(y != 0 && temp_loc != 0) {
+                                var creatlink1 = createLink(temp1.waveNumber, 0, productScale(stackProduct[y-1]), productScale(temp1.productCount))
+                                var creatlink2 = createLink(temp2.waveNumber, 0, pickingTimeScale(stackPickingTime[temp_loc - 1]), pickingTimeScale(temp2.pickingTime))
+                            }
+                            var link = Link(creatlink1, creatlink2)
+                            link_list.push(link)
+                        }
+                    }
+                }
+            //     console.log("link_list", link_list)     
+                
+                function link_path(d) {
+                    // cx1 cx2 cx3 cy4 控制点，用于绘制贝塞尔曲线
+                    var cx1 = d.x1 + (d.x2 - d.x1) / 3;
+                    var cy1 = d.upy1;
+                    var cx2 = d.x1 + (d.x2 - d.x1) * 2 / 3;
+                    var cy2 = d.upy2
+                    
+                    var cx3 = d.x2 + (d.x1 - d.x2) / 3;
+                    var cy3 = d.downy2;
+                    var cx4 = d.x2 + (d.x1 - d.x2) * 2 / 3;
+                    var cy4 = d.downy1
+
+                    return "M" + d.x1 + "," + d.upy1 + "C" + cx1 + "," + cy1 + " " + cx2 + "," + cy2 + " " + d.x2 + "," + d.upy2 +
+                    "L" + d.x2 + "," + d.downy2 + 
+                    "C" + cx3 + "," + cy3 + " " + cx4 + "," + cy4 + " " + d.x1 + "," + d.downy1 +
+                    "L" + d.x1 + "," + d.upy1 + " " + "Z"  
+
+                }
+                
+                link_list.forEach((d, i) => {
+                    if(i < 4){
+                        var column = 0
+                        d.x1 = 20 + column * 80 + rectWidth
+                        d.upy1 = d.source.y
+                        d.downy1 = d.source.h + d.source.y
+                        d.w1 = rectWidth
+
+                        d.x2 = 20 + column * 80 + rectWidth + 40
+                        d.upy2 = d.target.y
+                        d.downy2 = d.target.h + d.target.y
+                        d.w2 = rectWidth
+                        d.waveNumber = d.target.waveNumber
+                    }
+                    else if(i < 8){
+                        var column = 1  
+                        d.x1 = 20 + column * 80 + rectWidth
+                        d.upy1 = d.source.y
+                        d.downy1 = d.source.h + d.source.y
+                        d.w1 = rectWidth
+
+                        d.x2 = 20 + column * 80 + rectWidth + 40
+                        d.upy2 = d.target.y
+                        d.downy2 = d.target.h + d.target.y
+                        d.w2 = rectWidth
+                        d.waveNumber = d.target.waveNumber
+                    } else {
+                        var column = 2
+                        d.x1 = 20 + column * 80 + rectWidth
+                        d.upy1 = d.source.y
+                        d.downy1 = d.source.h + d.source.y
+                        d.w1 = rectWidth
+
+                        d.x2 = 20 + column * 80 + rectWidth + 40
+                        d.upy2 = d.target.y
+                        d.downy2 = d.target.h + d.target.y
+                        d.w2 = rectWidth
+                        d.waveNumber = d.target.waveNumber
+                    }
+                });
+                
+                var link_objs = svg.append('g')
+                        .attr("class", "links")
+                        .selectAll('g')
+                        .data(link_list)
+                        .join("path")
+                        .attr("class", d => "link " +  d.source.waveNumber)
+                        .attr("d", d => {
+                            return link_path(d)
+                        })
+                        .attr("visibility", "visible")
+                        .attr("fill", (d, i) =>{ 
+                            if(d.waveNumber == "W1")
+                                return colors[0]
+                            if(d.waveNumber == "W2")
+                                return colors[1]
+                            if(d.waveNumber == "W3")
+                                return colors[2]
+                            if(d.waveNumber == "W4")
+                                return colors[3]
+                        })
+                        .style("fill-opacity", 0.05)
+                        .style("stroke", (d, i) =>{ 
+                            if(d.waveNumber == "W1")
+                                return colors[0]
+                            if(d.waveNumber == "W2")
+                                return colors[1]
+                            if(d.waveNumber == "W3")
+                                return colors[2]
+                            if(d.waveNumber == "W4")
+                                return colors[3]
+                        })
+                        // .style("stroke-width", 1);
+            }  
+
+            d3.selectAll(".wavenumber_sel").on("click", function(d) {
+                var element = d3.select(this)
+                selectLegend(element)
             })
-            .attr("width", 40)
-            .attr("height", (d, i) => {
-                    return pickingTimeScale(d.pickingTime)
-            })
-            .attr("fill", (d, i) =>{ 
-                        if(d.waveNumber == "W1")
-                        return colors[0]
-                        if(d.waveNumber == "W2")
-                        return colors[1]
-                        if(d.waveNumber == "W3")
-                        return colors[2]
-                        if(d.waveNumber == "W4")
-                        return colors[3]
-                    });
 
-// // 绘制连接线
-// svg.selectAll(".connect-line")
-//    .data(data)
-//    .enter()
-//    .append("line")
-//    .attr("class", "connect-line")
-//    .attr("x1", (d, i) => widthScale(d.waveNumber) + widthScale.bandwidth() / 2)
-//    .attr("y1", height)
-//    .attr("x2", (d, i) => widthScale(d.waveNumber) + widthScale.bandwidth() / 2)
-//    .attr("y2", d => height - heightScale(d.orderCount) - heightScale(d.productCount) - heightScale(d.pickingTime))
-//    .attr("stroke", "black");
+            function selectLegend(element){
+                console.log("element", element)
+                let waveNumber = element.attr("waveNumber") //获取点击的矩形的waveNumber
+                let node_sel = d3.selectAll(".node." + waveNumber) 
+                let link_sel = d3.selectAll(".link." + waveNumber)
+                // console.log("click ", waveNumber)
+                console.log("node_sel", node_sel)
+                console.log("link_sel", link_sel)
+
+                d3.selectAll(".wavenumber_sel").style("fill-opacity", 0.1) 
+                d3.selectAll(".node").style("fill-opacity", 0.1) 
+                d3.selectAll(".link").style("visibility", "hidden")
+                
+                element.style("fill-opacity", 1) //选中的公司图例变亮
+                node_sel.style("fill-opacity", 1)
+                link_sel.style("visibility", "visible")
+                link_sel.style("fill-opacity", 0.01)
+            }
+
        }
     },
     mounted() {
@@ -348,5 +467,18 @@ export default {
 .Sankey{
     width: 100%;
     height: 100%;
+}
+.tool-tip {
+  background-color: #eeeeee;
+  color: black;
+  /* padding: 10px; */
+  border-radius: 4px;
+  position: absolute;
+  display: none;
+  width: 20px;
+  height: auto;
+  /* padding: 14px 10px 4px 10px; */
+  text-align: center;
+  opacity: 0.1;
 }
 </style>
